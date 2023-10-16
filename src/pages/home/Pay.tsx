@@ -6,7 +6,7 @@ export default function Pay() {
   return (
     <main className="flex flex-col">
       <div
-        className="px-5 md:px-24 flex flex-col items-center md:grid grid-cols-2 bg-[#F8F2FF] paybg bg-contain"
+        className="px-5 md:px-20 flex flex-col items-center md:grid grid-cols-2 bg-[#F8F2FF] paybg bg-contain"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <figure className="flex justify-center items-center z-10">

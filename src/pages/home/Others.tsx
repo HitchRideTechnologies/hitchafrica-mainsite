@@ -7,7 +7,7 @@ import other4 from "@/assets/other4.png";
 export default function Others() {
   return (
     <section
-      className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-24 bg-[#FDFBFF]"
+      className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-20 bg-[#FDFBFF]"
       id="business"
     >
       <div className="flex flex-col items-center gap-5 mx-auto text-center">

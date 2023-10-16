@@ -7,7 +7,7 @@ import feat4 from "@/assets/feat4.png";
 export default function Features() {
   return (
     <section
-      className="flex flex-col gap-10 py-10 md:py-20 px-5 md:px-24 bg-[#F8F2FF]"
+      className="flex flex-col gap-10 py-10 md:py-20 px-5 md:px-20 bg-[#F8F2FF]"
       id="features"
     >
       <div className="flex flex-col md:flex-row gap-5 md:gap-20 w-full">

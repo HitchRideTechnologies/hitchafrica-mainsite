@@ -9,7 +9,7 @@ import { FaStar } from "react-icons/fa";
 export default function Hero() {
   return (
     <section
-      className="px-5 md:px-24 py-10 relative bg-cover bg-no-repeat bg-center"
+      className="px-5 md:px-20 py-10 relative bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       {/* <div className="absolute top-0 right-0 w-1/3 hidden md:block h-full bg-[#F8F2FF] z-[-1]"></div> */}

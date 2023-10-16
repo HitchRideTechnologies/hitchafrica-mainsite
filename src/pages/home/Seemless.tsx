@@ -12,18 +12,18 @@ export default function Seemless() {
         </h3>
         <div className="flex flex-col gap-4">
           <p>Available on </p>
-          <div className="flex flex-col md:flex-row gap-5 text-lg">
-            <button className="bg-white flex flex-col py-3 px-8 gap-1 rounded-2xl justify-center items-center w-fit">
+          <div className="flex flex-col md:flex-row gap-5">
+            <button className="bg-white flex flex-col py-3 px-8 gap-1 rounded-xl justify-center items-center w-fit min-h-fit">
               <small className="text-xs text-[#101010]">Download on</small>
-              <span className="flex gap-4 text-[#101010] font-[700]">
-                <Image src={playstore} alt="" className="h-" />
+              <span className="flex gap-1 text-[#101010] font-[600]">
+                <Image src={playstore} alt="" className="" />
                 Play Store
               </span>
             </button>
-            <button className="bg-white flex flex-col py-3 px-8 gap-1 rounded-2xl justify-center items-center w-fit">
+            <button className="bg-white flex flex-col py-3 px-8 gap-1 rounded-xl justify-center items-center w-fit min-h-fit">
               <small className="text-xs text-[#101010]">Download on</small>
-              <span className="flex gap-4 text-[#101010] font-[700]">
-                <Image src={appstore} alt="" className="h-" />
+              <span className="flex gap-1 text-[#101010] font-[600]">
+                <Image src={appstore} alt="" className="" />
                 App Store
               </span>
             </button>

@@ -4,7 +4,7 @@ import how from "@/assets/how-ride.png";
 
 export default function How() {
   return (
-    <main className="flex flex-col gap-14 md:gap-20 items-center py-10 md:py-20 px-5 md:px-24">
+    <main className="flex flex-col gap-14 md:gap-20 items-center py-10 md:py-20 px-5 md:px-20">
       <h3 className="why text-3xl md:text-[45px] font-[600] text-purple">
         How to book a ride with <span className="why"> Hitchride</span>
       </h3>

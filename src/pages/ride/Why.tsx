@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Why() {
   return (
-    <main className="flex flex-col gap-14 items-center py-10 px-5 md:px-24">
+    <main className="flex flex-col gap-14 items-center py-10 px-5 md:px-20">
       <h3 className="why text-3xl md:text-[60px] font-[600] leading-tight">Why Book a ride with us?</h3>
       <div className="flex flex-col md:flex-row gap-14 md:gap-24 items-center justify-center">
         <figure>

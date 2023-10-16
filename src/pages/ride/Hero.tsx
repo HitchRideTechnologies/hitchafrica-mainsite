@@ -6,7 +6,7 @@ import hero from "@/assets/hero-ride.png";
 export default function Hero() {
   return (
     <section
-      className="px-5 md:px-24 py-10 md:py-20 relative bg-[#04bbc633]"
+      className="px-5 md:px-20 py-10 md:py-20 relative bg-[#04bbc633]"
     >
       <div className="flex flex-col md:grid grid-cols-2 gap-10 items-center z-0 relative">
         <div className="w-full flex flex-col gap-10 pl-5">

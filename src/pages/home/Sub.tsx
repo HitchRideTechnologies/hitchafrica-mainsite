@@ -2,9 +2,9 @@ import Image from "next/image";
 import bg from "@/assets/sub.jpeg";
 export default function Sub() {
   return (
-    <section className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-24">
+    <section className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-20">
       <div
-        className="shadow-xl py-24 px-5 md:px-24 flex flex-col md:grid grid-cols-2 gap-10 md:gap-16 items-center relative bg-no-repeat bg-cover bg-center"
+        className="shadow-xl py-24 px-5 md:px-20 flex flex-col md:grid grid-cols-2 gap-10 md:gap-16 items-center relative bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <div className="flex flex-col text-white">

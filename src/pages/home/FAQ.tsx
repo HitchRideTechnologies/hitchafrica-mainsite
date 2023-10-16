@@ -86,7 +86,7 @@ export default function FAQ() {
   };
 
   return (
-    <main className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-24 bg-[#FDFBFF]">
+    <main className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-20 bg-[#FDFBFF]">
       <div className="flex flex-col items-center gap-5 mx-auto text-center">
         <h3 className="text-3xl md:text-[40px] text-purple font-[700]">
           <span className="text-red">Frequently Asked </span> Questions

@@ -3,7 +3,7 @@ import bg from "@/assets/how.png";
 export default function How() {
   return (
     <main
-      className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-24"
+      className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-20"
       id="business"
     >
       <div className="flex flex-col items-center gap-5 mx-auto text-center">

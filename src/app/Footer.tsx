@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="flex flex-col gap-14 md:gap-20 text-lg justify-center items-center text-white px-5 md:px-20 py-10 md:py-20 bg-primary bg-no-repeat bg-cover bg-center"
     style={{ backgroundImage: `url(${bg.src})` }}
     >
-      <section className="grid grid-cols-2 md:grid-cols-4 grid-rows-1">
+      <section className="grid grid-cols-2 md:grid-cols-4 grid-rows-1 gap-5">
       <div className="flex flex-col justify-between h-full col-span-2 md:col-span-1">
       <Image src={logo} alt="" className="" />
       <div className="flex flex-col gap-5 md:p-10">
@@ -58,7 +58,7 @@ export default function Footer() {
         <p>Press</p>
       </div>
       </div>
-        <div className="flex justify-center">
+        <div className="flex md:justify-center col-span-2 md:col-span-1">
       <div className="flex flex-col gap-10">
 
         
