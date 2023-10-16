@@ -95,7 +95,7 @@ export default function FAQ() {
           Answers to Your Questions: Clearing Doubts and Providing Clarity
         </p>
       </div>
-      <section className="flex flex-col md:grid grid-cols-[1.2fr_1fr] grid-rows-1 gap-10 md:gap-20">
+      <section className="grid grid-cols-[1.2fr_1fr] grid-rows-1 gap-10">
         <div className="w-full flex flex-col gap-5">
           {List.slice(start, end).map((info, index) => (
             <nav

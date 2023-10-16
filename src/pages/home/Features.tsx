@@ -21,7 +21,7 @@ export default function Features() {
           enjoyable.
         </p>
       </div>
-      <div className=" w-full flex flex-col md:grid grid-cols-4 gap-10">
+      <div className=" w-full flex flex-col md:grid grid-cols-4 gap-5">
         <Feat
           icon={feat1}
           title="All-in-one Convenience"

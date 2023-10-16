@@ -21,7 +21,7 @@ export default function Others() {
       </div>
       <div className=" w-full flex flex-col md:grid grid-cols-2 gap-10">
         <div
-          className="h-auto md:h-[90vh] flex flex-col justify-evenly gap-10 py-20 pl-5 md:pl-20 bg-[rgba(4,187,198,0.20)] relative otherbg bg-contain"
+          className="h-auto md:h-[90vh] flex flex-col justify-evenly gap-10 py-20 pl-5 md:pl-10 bg-[rgba(4,187,198,0.20)] relative otherbg bg-contain"
           style={{ backgroundImage: `url(${other1.src})` }}
         >
           <div className="w-3/5 flex flex-col gap-5">
@@ -61,7 +61,7 @@ export default function Others() {
           </button>
         </div>
         <div
-          className="h-auto md:h-[90vh] flex flex-col justify-evenly gap-10 py-20 pl-5 md:pl-20 bg-[#E7F2D6] relative otherbg bg-contain"
+          className="h-auto md:h-[90vh] flex flex-col justify-evenly gap-10 py-20 pl-5 md:pl-10 bg-[#E7F2D6] relative otherbg bg-contain"
           style={{ backgroundImage: `url(${other3.src})` }}
         >
           <div className="w-3/5 flex flex-col gap-5">

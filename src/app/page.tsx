@@ -5,8 +5,8 @@ import Others from "@/pages/home/Others";
 import Pay from "@/pages/home/Pay";
 import Reviews from "@/pages/home/Reviews";
 import Sub from "@/pages/home/Sub";
-import FAQ from "@/utils/FAQ";
-import Seemless from "@/utils/Seemless";
+import FAQ from "@/pages/home/FAQ";
+import Seemless from "@/pages/home/Seemless";
 
 export default function Home() {
   return (
