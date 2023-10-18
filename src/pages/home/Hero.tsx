@@ -12,26 +12,27 @@ export default function Hero() {
       className="px-5 md:px-20 py-10 relative bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
-      {/* <div className="absolute top-0 right-0 w-1/3 hidden md:block h-full bg-[#F8F2FF] z-[-1]"></div> */}
-      <div className="flex flex-col md:grid grid-cols-2 gap-10 items-center z-0 relative">
-        <div className="w-full flex flex-col gap-10 pl-5">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-14 justify-center items-center z-0 relative">
+        <div className="flex flex-col gap-10 pl-5 min-w-fit">
           <div className="flex flex-col gap-5">
             <h2 className="text-3xl md:text-[60px] font-[600] leading-normal grad">
-              Hitch - Your everyday app for Africans
+              Hitch - Your <br className="hidden md:block" /> everyday app{" "}
+              <br className="hidden md:block" /> for Africans
             </h2>
             <p className="text-xl md:text-2xl">
-              Connecting Journeys, Delivering Convenience: Hitch Africa-Your
-              All-in-One Service Companion
+              Connecting Journeys, Delivering Convenience:
+              <br className="hidden md:block" /> Hitch Africa-Your All-in-One
+              Service Companion
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-5 text-lg mx-auto md:mx-0">
-            <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-2xl justify-center items-center w-fit">
+            <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
               <Image src={playstore} alt="" className="h5" />
               <span className="text-start flex flex-col gap-1">
                 <small className="text-xs">Download on</small> Google Play
               </span>
             </button>
-            <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-2xl justify-center items-center w-fit">
+            <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
               <Image src={appstore} alt="" className="h-" />
               <span className="text-start flex flex-col gap-1">
                 <small className="text-xs">Download on</small> Apple Store
@@ -53,8 +54,8 @@ export default function Hero() {
             </nav>
           </div>
         </div>
-        <div className="w-full h-full">
-          <Image src={hero} alt="" className="w-full h-full object-contain" />
+        <div className="">
+          <Image src={hero} alt="" className="object-contain" />
         </div>
       </div>
     </section>

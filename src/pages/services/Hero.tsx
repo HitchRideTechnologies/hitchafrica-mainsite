@@ -1,28 +1,22 @@
 import Image from "next/image";
-import playstore from "@/assets/playstore-w.png";
-import appstore from "@/assets/appstore-w.png";
-import hero from "@/assets/hero-ride.png";
+import hero from "@/assets/hero-service.png";
 
 export default function Hero() {
   return (
-    <section className="px-5 md:px-20 py-10 md:py-20 relative bg-[#9971c31a]">
-      <div className="flex flex-col md:grid grid-cols-2 gap-10 items-center z-0 relative">
-        <div className="w-full flex flex-col gap-10 pl-5">
+    <section className="bg-[rgba(153,113,195,0.10)]">
+      <div className="flex flex-col md:flex-row justify-end items-center gap-10 md:gap-14 z-0 relative">
+        <div className="flex flex-col gap-10 min-w-fit">
           <div className="flex flex-col gap-5">
             <h2 className="text-3xl md:text-[60px] font-[600] leading-normal grad">
-              Find the Best Talents with Ease
+              Find the Best <br className="hidden md:block" /> Talents with Ease
             </h2>
             <p className="text-xl md:text-2xl">
-              The best local talents to you or remote to complete assigned tasks
+            The best local talents to you or remote to <br className="hidden md:block" /> complete assigned tasks
             </p>
           </div>
         </div>
-        <div className="w-full h-full">
-          <Image
-            src={hero}
-            alt=""
-            className="w-full h-full rounded-xl object-contain"
-          />
+        <div className="md:w-1/2">
+          <Image src={hero} alt="" className="object-cover w-full" />
         </div>
       </div>
     </section>

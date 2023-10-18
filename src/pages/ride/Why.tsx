@@ -11,34 +11,34 @@ export default function Why() {
         <figure>
           <Image src={why1} alt="" />
         </figure>
-        <div className="flex flex-col gap-5 md:gap-10 md:w-[40%]">
+        <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <b className="text-3xl md:text-[45px] font-[600] leading-tight">
-            Smooth and easy pickup experience
+            Smooth and easy <br className="hidden md:block" /> pickup experience
           </b>
           <p className="text-2xl font-[500]">
-            The process made easy from beginning to end. From ordering a ride,
-            in-app chatting, and to finally meeting your driver.
+            The process made easy from beginning <br className="hidden md:block" /> to end. From ordering a ride,
+            in-app <br className="hidden md:block" /> chatting, and to finally meeting your <br className="hidden md:block" /> driver.
           </p>
           <Link
             href="#"
-            className="rounded-md px-12 h-12 flex justify-center items-center whybtn text-white w-fit min-w-fit"
+            className="rounded-md px-12 h-12 mt-5 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Get Started
           </Link>
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-14 md:gap-24 items-center justify-center">
-        <div className="flex flex-col gap-5 md:gap-10 md:w-[40%]">
+        <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <b className="text-3xl md:text-[45px] font-[600] leading-tight">
-            Worry not; our driver will be there for you
+            Worry not; our driver <br className="hidden md:block" /> will be there for you
           </b>
           <p className="text-2xl font-[500]">
-            Your safety and comfort are of utmost importance to us and our
-            driver-partners. Whenever, wherever, go ahead and order.
+            Your safety and comfort are of utmost <br className="hidden md:block" /> importance to us and our
+            driver-partners.<br className="hidden md:block" /> Whenever, wherever, go ahead and <br className="hidden md:block" /> order.
           </p>
           <Link
             href="#"
-            className="rounded-md px-12 h-12 flex justify-center items-center whybtn text-white w-fit min-w-fit"
+            className="rounded-md px-12 h-12 mt-5 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Get Started
           </Link>

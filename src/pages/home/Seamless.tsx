@@ -5,7 +5,7 @@ import phone from "@/assets/phone.png";
 
 export default function Seemless() {
   return (
-    <div className="bg-primary shadow-xl mx-5 md:mx-20 md:h-[85vh] pt-14 md:pt-0 px-5 md:px-20 my-10 md:my-20 flex flex-col md:grid grid-cols-[1.5fr_2fr] grid-rows-1 gap-10 items-center">
+    <div className="bg-primary shadow-xl rounded-xl mx-5 md:mx-20 md:h-[85vh] pt-14 md:pt-0 px-5 md:px-20 my-10 md:my-20 flex flex-col md:grid grid-cols-[1.5fr_2fr] grid-rows-1 gap-10 items-center">
       <div className="flex flex-col gap-10 md:gap-20 text-white">
         <h3 className="text-[36px] font-[700]">
           Seamless Services for Your Every Need: Hitch, Deliver, Excel.
@@ -31,7 +31,7 @@ export default function Seemless() {
         </div>
       </div>
       <figure className="w-full h-full">
-        <Image src={phone} alt="" className="h-full w-full object-contain" />
+        <Image src={phone} alt="" className="h-full w-full" />
       </figure>
     </div>
   );

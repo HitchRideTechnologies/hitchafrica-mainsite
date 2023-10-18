@@ -1,12 +1,12 @@
-import Hero from "@/pages/home/Hero"
-import Features from "@/pages/home/Features"
-import How from "@/pages/home/How"
+import Hero from "@/pages/home/Hero";
+import Features from "@/pages/home/Features";
+import How from "@/pages/home/How";
 import Others from "@/pages/home/Others";
 import Pay from "@/pages/home/Pay";
 import Reviews from "@/pages/home/Reviews";
 import Sub from "@/pages/home/Sub";
 import FAQ from "@/pages/home/FAQ";
-import Seemless from "@/pages/home/Seemless";
+import Seamless from "@/pages/home/Seamless";
 
 export default function Home() {
   return (
@@ -14,11 +14,11 @@ export default function Home() {
       <Hero />
       <Features />
       <How />
-      <Others  />
-      <Pay  />
-      <Seemless />
-      <Reviews  />
-      <FAQ  />
+      <Others />
+      <Pay />
+      <Seamless />
+      <Reviews />
+      <FAQ />
       <Sub />
     </main>
   );

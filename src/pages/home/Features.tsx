@@ -55,7 +55,7 @@ interface FeatProps {
 
 const Feat = ({ icon, title, text }: FeatProps): JSX.Element => {
   return (
-    <nav className="w-full flex flex-col gap-5 bg-primary text-white rounded-2xl p-8 feat">
+    <nav className="w-full flex flex-col gap-5 bg-primary text-white rounded-2xl p-6 feat">
       <figure className="w-14 h-14 rounded-[50%] flex justify-center items-center bg-[#EDDDFF]">
         <Image src={icon} alt="" className="h-8 w-8" />
       </figure>
