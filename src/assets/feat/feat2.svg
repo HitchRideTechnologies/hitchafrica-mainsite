@@ -1,0 +1,24 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.5808 24.0314H9.24286C8.47878 24.0314 7.80097 24.0068 7.1971 23.9205C3.95594 23.5631 3.08095 22.035 3.08095 17.8695V11.7076C3.08095 7.54217 3.95594 6.01402 7.1971 5.65663C7.80097 5.57036 8.47878 5.54572 9.24286 5.54572H13.5069" stroke="url(#paint0_linear_3386_18370)" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.5104 5.54572H20.3343C21.0984 5.54572 21.7762 5.57036 22.3801 5.65663C25.6212 6.01402 26.4962 7.54217 26.4962 11.7076V17.8695C26.4962 22.035 25.6212 23.5631 22.3801 23.9205C21.7762 24.0068 21.0984 24.0314 20.3343 24.0314H18.5104" stroke="url(#paint1_linear_3386_18370)" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.4857 2.46472V27.1124" stroke="url(#paint2_linear_3386_18370)" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.85907 10.4753V19.102" stroke="url(#paint3_linear_3386_18370)" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_3386_18370" x1="-0.234808" y1="-8.16454" x2="16.2109" y2="-7.23326" gradientUnits="userSpaceOnUse">
+<stop offset="0.415901" stop-color="#C371C3"/>
+<stop offset="1" stop-color="#280F44"/>
+</linearGradient>
+<linearGradient id="paint1_linear_3386_18370" x1="15.9885" y1="-8.16454" x2="28.5134" y2="-7.62511" gradientUnits="userSpaceOnUse">
+<stop offset="0.415901" stop-color="#C371C3"/>
+<stop offset="1" stop-color="#280F44"/>
+</linearGradient>
+<linearGradient id="paint2_linear_3386_18370" x1="18.1699" y1="-15.8156" x2="19.7412" y2="-15.8093" gradientUnits="userSpaceOnUse">
+<stop offset="0.415901" stop-color="#C371C3"/>
+<stop offset="1" stop-color="#280F44"/>
+</linearGradient>
+<linearGradient id="paint3_linear_3386_18370" x1="9.54328" y1="4.07716" x2="11.1144" y2="4.09532" gradientUnits="userSpaceOnUse">
+<stop offset="0.415901" stop-color="#C371C3"/>
+<stop offset="1" stop-color="#280F44"/>
+</linearGradient>
+</defs>
+</svg>

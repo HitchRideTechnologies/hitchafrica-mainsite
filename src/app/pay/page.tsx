@@ -1,20 +1,21 @@
 import Hero from "@/pages/pay/Hero";
-import How from "@/pages/food/How";
-import Become from "@/pages/food/Become";
+import Pay from "@/pages/pay/Pay";
 import Seamless from "@/pages/home/Seamless";
 import FAQ from "@/pages/home/FAQ";
-import Work from "@/pages/food/Work";
-import Explore from "@/pages/food/Explore";
-
+import Sub from "@/pages/home/Sub";
+import Work from "@/pages/pay/Work";
+import Features from "@/pages/pay/Features";
+import Become from "@/pages/pay/Become"
 export default function Home() {
   return (
     <main className="flex flex-col justify-center z-[0] overflow-x-hidden snap relative bg-[#FFFFFE]">
       <Hero />
+      <Features />
       <Work />
-      <Explore  />
-      <How />
-      <Become />
+      <Pay />
       <Seamless />
+      <Become />
+      <Sub />
       <FAQ />
     </main>
   );

@@ -13,7 +13,7 @@ export default function Hero() {
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className="flex flex-col md:flex-row gap-10 md:gap-14 justify-center items-center z-0 relative">
-        <div className="flex flex-col gap-10 pl-5 min-w-fit">
+        <div className="flex flex-col gap-10 pl-5 min-w-fit w-fit">
           <div className="flex flex-col gap-5">
             <h2 className="text-3xl md:text-[60px] font-[600] leading-normal grad">
               Hitch - Your <br className="hidden md:block" /> everyday app{" "}
