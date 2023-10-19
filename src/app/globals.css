@@ -98,6 +98,11 @@ body {
   background-size: auto auto;
   background-position: right bottom;
 }
+@media screen and (min-width: 700px) {
+  .otherbg {
+    backgroundImage: none;
+  }    
+}
 .exp {
   background-repeat: no-repeat;
   background-size: auto auto;

@@ -47,7 +47,7 @@ export default function Footer() {
             <Link href="/">Privacy Policy</Link>
             <Link href="/">Terms & Conditions</Link>
             <Link href="/">FAQs</Link>
-            <Link href="/">Press</Link>
+            <Link href="/press">Press</Link>
           </div>
         </div>
         <div className="flex md:justify-center col-span-2 md:col-span-1">

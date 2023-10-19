@@ -16,10 +16,10 @@ export default function How() {
         </p>
       </div>
       <section
-        className="flex flex-col gap-40 text-2xl bg-center bg-contain bg-no-repeat"
-        style={{ backgroundImage: `url(${bg.src})` }}
+        className="flex flex-col md:grid grid-cols-[1fr_2fr_1fr] grid-rows-1 justify-center items-center text-2xl bg-center bg-contain bg-no-repeat"
+        // style={{ backgroundImage: `url(${bg.src})` }}
       >
-        <div className="flex justify-between items-start w-full">
+        <div className="flex flex-col gap-24 justify-between items-end w-full">
           <nav className="w-fit flex flex-col gap-3 items-end text-end">
             <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
               <span className="grad">1</span>
@@ -29,7 +29,17 @@ export default function How() {
               Join HitchAfrica with a simple <br /> sign-up.
             </p>
           </nav>
-          <nav className="w-fit flex flex-col gap-3 items-start text-start">
+          <nav className="w-fit flex flex-col gap-3 items-end text-end">
+            <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
+              <span className="grad">3</span>
+            </span>
+            <b className="font-[600] text-black">Perform a Transaction</b>
+            <p>
+              Swiftly execute transactions <br />
+              —shop, send money or order <br /> groceries.
+            </p>
+          </nav>
+          <nav className="w-fit md:hidden flex flex-col gap-3 items-start text-start">
             <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
               <span className="grad">2</span>
             </span>
@@ -41,8 +51,11 @@ export default function How() {
             </p>
           </nav>
         </div>
-        <div className="flex justify-between items-start w-full">
-          <nav className="w-fit flex flex-col gap-3 items-end text-end">
+        <figure className="hidden w-full h-[110%] md:flex items-center">
+          <Image src={bg} alt="" className="h-full w-full scale-80 object-contain" />
+        </figure>
+        <div className="flex flex-col gap-24 justify-between items-start w-full">
+        <nav className="w-fit md:hidden flex flex-col gap-3 items-end text-end">
             <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
               <span className="grad">3</span>
             </span>
@@ -50,6 +63,17 @@ export default function How() {
             <p>
               Swiftly execute transactions <br />
               —shop, send money or order <br /> groceries.
+            </p>
+          </nav>
+          <nav className="w-fit hidden md:flex flex-col gap-3 items-start text-start">
+            <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
+              <span className="grad">2</span>
+            </span>
+            <b className="font-[600] text-black">
+              Select your preferred service
+            </b>
+            <p>
+              Choose from various services <br /> —meals, rides, and more.
             </p>
           </nav>
           <nav className="w-fit flex flex-col gap-3 items-start text-start">
