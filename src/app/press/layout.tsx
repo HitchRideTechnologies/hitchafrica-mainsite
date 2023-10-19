@@ -1,4 +1,3 @@
-import "./globals.css";
 import Hero from "@/pages/press-and-media/Hero";
 import Seamless from "@/pages/home/Seamless";
 import FAQ from "@/pages/home/FAQ";
