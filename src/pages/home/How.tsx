@@ -17,7 +17,6 @@ export default function How() {
       </div>
       <section
         className="flex flex-col md:grid grid-cols-[1fr_2fr_1fr] grid-rows-1 justify-center items-center text-2xl bg-center bg-contain bg-no-repeat"
-        // style={{ backgroundImage: `url(${bg.src})` }}
       >
         <div className="flex flex-col gap-24 justify-between items-end w-full">
           <nav className="w-fit flex flex-col gap-3 items-end text-end">
