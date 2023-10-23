@@ -18,7 +18,7 @@ export default function How() {
       <section
         className="flex flex-col md:grid grid-cols-[1fr_2fr_1fr] grid-rows-1 justify-center items-center text-2xl bg-center bg-contain bg-no-repeat"
       >
-        <div className="flex flex-col gap-24 justify-between items-end w-full">
+        <div className="flex flex-col gap-40 justify-between items-end w-full">
           <nav className="w-fit flex flex-col gap-3 items-end text-end">
             <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
               <span className="grad">1</span>
@@ -53,7 +53,7 @@ export default function How() {
         <figure className="hidden w-full h-[110%] md:flex items-center">
           <Image src={bg} alt="" className="h-full w-full scale-80 object-contain" />
         </figure>
-        <div className="flex flex-col gap-24 justify-between items-start w-full">
+        <div className="flex flex-col gap-40 justify-between items-start w-full">
         <nav className="w-fit md:hidden flex flex-col gap-3 items-end text-end">
             <span className="bg-[#F8F2FF] rounded h-[90px] w-[90px] flex justify-center items-center text-[48px]">
               <span className="grad">3</span>

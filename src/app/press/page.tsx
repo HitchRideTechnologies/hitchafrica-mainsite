@@ -1,7 +1,11 @@
-export default function Home() {
-  return (
-    <main className="flex flex-col justify-center z-[0] overflow-x-hidden snap relative bg-[#FFFFFE]">
-     
-    </main>
-  );
+import {redirect} from 'next/navigation'
+
+export default function Press() {
+  return <Redirect /> 
+}
+
+
+function Redirect() {
+  redirect('/press/news') 
+  return null
 }
