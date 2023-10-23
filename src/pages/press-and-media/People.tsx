@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import pple1 from "@/assets/people/pple1.png";
 import pple2 from "@/assets/people/pple2.png";
 import pple3 from "@/assets/people/pple3.png";
@@ -64,6 +65,9 @@ export default function People() {
           />
         </figure>
       </div>
+      <Link href="/" className="font-[500] mt-10 text-primary text-lg md:text-2xl underline mx-auto">
+        See More
+      </Link>
     </main>
   );
 }

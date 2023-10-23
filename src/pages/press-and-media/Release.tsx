@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Release() {
   return (
-    <main className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-20 text-black">
-      <div className="flex flex-col gap-5 md:gap-10">
+    <main className="flex flex-col gap-10 md:gap-24 py-10 md:py-20 px-5 md:px-20 text-black">
+      <div className="flex flex-col gap-5 md:gap-12">
         <h3 className="text-3xl md:text-[40px] text-[#370D66] font-[500] leading-snug">
           Press Release
         </h3>
@@ -29,11 +29,11 @@ export default function Release() {
             outlet="Vanguard"
           />
         </div>
-        <Link href="/" className="grad underline mx-auto">
-          See More
-        </Link>
+        <Link href="/" className="font-[500] mt-10 text-purple text-lg md:text-2xl underline mx-auto">
+        See More
+      </Link>
       </div>
-      <div className="flex flex-col gap-5 md:gap-10">
+      <div className="flex flex-col gap-5 md:gap-12">
         <h3 className="text-3xl md:text-[40px] text-[#03464A] font-[500] leading-snug">
           In the Media
         </h3>
@@ -57,9 +57,9 @@ export default function Release() {
             outlet="Vanguard"
           />
         </div>
-        <Link href="/" className="text-primary underline mx-auto">
-          See More
-        </Link>
+        <Link href="/" className="font-[500] mt-10 text-[#03464A] text-lg md:text-2xl underline mx-auto">
+        See More
+      </Link>
       </div>
     </main>
   );
@@ -80,7 +80,7 @@ const Single = ({ icon, title, date, outlet }: Props): JSX.Element => {
         {outlet}
       </button>
       <b className="font-[500] text-2xl text-black">{title}</b>
-      <p className="mt-auto font-[500] capitalize">{date}</p>
+      <p className="mt-auto font-[300] capitalize">{date}</p>
     </nav>
   );
 };

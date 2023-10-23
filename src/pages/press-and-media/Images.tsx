@@ -86,7 +86,7 @@ const Single = ({ icon, img, bg }: Props): JSX.Element => {
       style={{backgroundColor: `${bg}`}}
     >
       <button className="w-14 h-14 bg-white rounded-[50%] shadow-[0px_0px_55.10869598388672px_rgba(0,0,0,0.10)] absolute right-5 top-5 flex justify-center items-center">
-      <Image src={icon} alt="" className="" />
+      <Image src={icon} alt="" className="h-8 w-8" />
       </button>
       <Image src={img} alt="" className="" />
     </nav>
