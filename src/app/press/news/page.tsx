@@ -1,4 +1,4 @@
-import Release from "@/pages/press-and-media/news/Release"
+import Release from "@/pages/press-and-media/Release"
 
 export default function Home() {
   return (

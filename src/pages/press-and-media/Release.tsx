@@ -6,7 +6,7 @@ export default function Release() {
   return (
     <main className="flex flex-col gap-10 md:gap-16 py-10 md:py-20 px-5 md:px-20 text-black">
       <div className="flex flex-col gap-5 md:gap-10">
-        <h3 className="text-3xl md:text-[40px] text-purple font-[500] leading-snug">
+        <h3 className="text-3xl md:text-[40px] text-[#370D66] font-[500] leading-snug">
           Press Release
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-3">
@@ -34,7 +34,7 @@ export default function Release() {
         </Link>
       </div>
       <div className="flex flex-col gap-5 md:gap-10">
-        <h3 className="text-3xl md:text-[40px] text-primary font-[500] leading-snug">
+        <h3 className="text-3xl md:text-[40px] text-[#03464A] font-[500] leading-snug">
           In the Media
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-3">
@@ -74,7 +74,7 @@ interface Props {
 
 const Single = ({ icon, title, date, outlet }: Props): JSX.Element => {
   return (
-    <nav className="w-full flex flex-col gap-2 uppercase">
+    <nav className="w-full flex flex-col gap-3 uppercase">
       <Image src={icon} alt="" className="w-full" />
       <button className="w-fit px-5 h-12 bg-[#F5F5F5] rounded text-[#5F5F5F]">
         {outlet}
