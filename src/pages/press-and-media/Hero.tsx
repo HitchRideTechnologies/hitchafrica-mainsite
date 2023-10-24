@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <main
-      className="h-[80vh] flex flex-col gap-14 text-lg text-center justify-center items-center text-white px-5 md:px-20 bg-primary bg-no-repeat bg-cover bg-center"
+      className="h-[90vh] flex flex-col gap-14 text-lg text-center justify-center items-center text-white px-5 md:px-20 bg-primary bg-no-repeat bg-cover bg-center"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <h1 className="text-[72px] font-[600]">Press and Media Resources</h1>

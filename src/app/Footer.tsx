@@ -44,8 +44,8 @@ export default function Footer() {
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Support</b>
             <Link href="/">Report a bug</Link>
-            <Link href="/">Privacy Policy</Link>
-            <Link href="/">Terms & Conditions</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-and-conditions">Terms & Conditions</Link>
             <Link href="/">FAQs</Link>
             <Link href="/press">Press</Link>
           </div>

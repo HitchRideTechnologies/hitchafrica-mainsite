@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { FaBars, FaCaretDown, FaCaretUp, FaTimes } from "react-icons/fa";
 import logo from "@/assets/logo.png";
@@ -10,6 +10,7 @@ import hicon3 from "@/assets/hicon3.png";
 import hicon4 from "@/assets/hicon4.png";
 import hicon5 from "@/assets/hicon5.png";
 import hicon6 from "@/assets/hicon6.png";
+import { usePathname } from "next/navigation";
 
 export function useOnHoverOutside(ref: any, handler: any) {
   useEffect(() => {
@@ -27,6 +28,7 @@ export function useOnHoverOutside(ref: any, handler: any) {
 }
 
 export default function Header() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
   const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);
@@ -66,20 +68,31 @@ export default function Header() {
             )}
           </button>
           {isMenuDropDownOpen && (
-            <div className="hidden md:grid grid-cols-2 items-start text-sm gap-5 md:absolute bg-text md:rounded mx-auto mt-5  text-white w-full md:w-[unset] p-8 bg-primary">
-              <Link href='/ride' className="grid grid-cols-[65px_auto] grid-rows-1 gap-4">
-                <figure className="bg-[#9971C3] rounded-[4px] h-full w-full text-2xl flex justify-center items-center">
-                  <Image src={hicon1} alt="" className="w-full h-full" />
-                </figure>
+            <div
+              className={`hidden md:grid grid-cols-2 items-start text-sm gap-5 md:absolute md:rounded-xl mx-auto mt-5  text-white w-full md:w-[unset] p-8 bg-primary ${
+                pathname?.includes("ride") && "bg-secondary"
+              } ${pathname?.includes("food") && "bg-red"} ${
+                pathname?.includes("professional-service") &&
+                "bg-gradient-to-r from-[#c371c3] to-[#280f44]"
+              } ${pathname?.includes("pay") && "bg-primary"}`}
+            >
+              <Link
+                href="/ride"
+                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon icon={hicon1} />
                 <nav className="flex flex-col gap-2">
                   <b className="text-lg font-[600] min-w-fit">Book a ride</b>
-                  <p>Book a ride from anywhere in <br /> Nigeria</p>
+                  <p>
+                    Book a ride from anywhere in <br /> Nigeria
+                  </p>
                 </nav>
               </Link>
-              <Link href='/food' className="grid grid-cols-[65px_auto] grid-rows-1 gap-4">
-                <figure className="bg-[#9971C3] rounded-[4px] h-full w-full text-2xl flex justify-center items-center">
-                  <Image src={hicon4} alt="" className="w-full h-full" />
-                </figure>
+              <Link
+                href="/food"
+                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon icon={hicon2} />
                 <nav className="flex flex-col gap-2">
                   <b className="text-lg font-[600] min-w-fit">Food</b>
                   <p>
@@ -88,46 +101,66 @@ export default function Header() {
                   </p>
                 </nav>
               </Link>
-              <Link href='/professional-services' className="grid grid-cols-[65px_auto] grid-rows-1 gap-4">
-                <figure className="bg-[#9971C3] rounded-[4px] h-full w-full text-2xl flex justify-center items-center">
-                  <Image src={hicon5} alt="" className="w-full h-full" />
-                </figure>
+              <Link
+                href="/professional-services"
+                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon icon={hicon3} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] min-w-fit">Professional Services</b>
-                  <p>Book a professional for any service <br /> you need</p>
+                  <b className="text-lg font-[600] min-w-fit">
+                    Professional Services
+                  </b>
+                  <p>
+                    Book a professional for any service <br /> you need
+                  </p>
                 </nav>
               </Link>
-              <Link href='/' className="grid grid-cols-[65px_auto] grid-rows-1 gap-4">
-                <figure className="bg-[#9971C3] rounded-[4px] h-full w-full text-2xl flex justify-center items-center">
-                  <Image src={hicon2} alt="" className="w-full h-full" />
-                </figure>
+              <Link
+                href="/"
+                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon icon={hicon4} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] flex gap-1 items-center">Shopping mart <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">Coming soon</span></b>
+                  <b className="text-lg font-[600] flex gap-1 items-center">
+                    Shopping mart{" "}
+                    <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
+                      Coming soon
+                    </span>
+                  </b>
                   <p>
                     Shop from anywhere and get <br />
                     it delivered swiftly
                   </p>
                 </nav>
               </Link>
-              <Link href='/pay' className="grid grid-cols-[65px_auto] grid-rows-1 gap-4">
-                <figure className="bg-[#9971C3] rounded-[4px] h-full w-full text-2xl flex justify-center items-center">
-                  <Image src={hicon3} alt="" className="w-full h-full" />
-                </figure>
+              <Link
+                href="/pay"
+                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon icon={hicon5} />
                 <nav className="flex flex-col gap-2">
                   <b className="text-lg font-[600] min-w-fit">Hitch pay</b>
                   <p>
                     Make payment for your services <br />
-                     with hitchpay
+                    with hitchpay
                   </p>
                 </nav>
               </Link>
-              <Link href='/package-delivery' className="grid grid-cols-[65px_auto] grid-rows-1 gap-4">
-                <figure className="bg-[#9971C3] rounded-[4px] h-full w-full text-2xl flex justify-center items-center">
-                  <Image src={hicon6} alt="" className="w-full h-full" />
-                </figure>
+              <Link
+                href="/package-delivery"
+                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon icon={hicon6} />
                 <nav className="flex flex-col gap-2">
-                <b className="text-lg font-[600] flex gap-1 items-center">Package Delivery <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">Coming soon</span></b>
-                  <p>Send and Pick-up anywhere in <br /> Nigeria</p>
+                  <b className="text-lg font-[600] flex gap-1 items-center">
+                    Package Delivery{" "}
+                    <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
+                      Coming soon
+                    </span>
+                  </b>
+                  <p>
+                    Send and Pick-up anywhere in <br /> Nigeria
+                  </p>
                 </nav>
               </Link>
             </div>
@@ -174,3 +207,33 @@ export default function Header() {
     </header>
   );
 }
+
+interface Props {
+  icon: StaticImageData;
+}
+
+const Icon = ({ icon }: Props): JSX.Element => {
+  const pathname = usePathname();
+  const ride = "pink";
+  const food = "blue";
+  const service = "green";
+  const pay = "orange";
+
+  return (
+    <figure
+      className={`relative z-[0] rounded-[4px] h-full min-w-full w-full text-2xl flex justify-center items-center `}
+    >
+      <div className="backdrop-blur-[20px] rounded-[4px] bg-white opacity-[0.3] absolute w-full h-full left-0 top-0 z-[-1]">
+      </div>
+      <Image src={icon} alt="" className="h-10 w-10 opacity-[1] z-10" />
+    </figure>
+  );
+};
+
+// style={{
+//   backgroundColor: `${pathname?.includes("ride") && ride} ${
+//     pathname?.includes("food") && food
+//   } ${pathname?.includes("professional-service") && service} ${
+//     pathname?.includes("pay") && pay
+//   }`,
+// }}
