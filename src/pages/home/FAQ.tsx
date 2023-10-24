@@ -103,7 +103,7 @@ export default function FAQ() {
               key={index}
             >
               <div
-                className="flex justify-between items-center"
+                className="flex justify-between items-center text-xl cursor-pointer"
                 onClick={() => handleButtonClick(index)}
               >
                 <span>{info.question}</span>
@@ -122,7 +122,7 @@ export default function FAQ() {
                     transition={{ duration: 0.5 }}
                     className="overflow-clip"
                   >
-                    <p className={`text-sm md:text-base`}>
+                    <p className={`md:text-lg`}>
                       {activeIndices.has(index) && info.answer}
                     </p>
                   </motion.div>

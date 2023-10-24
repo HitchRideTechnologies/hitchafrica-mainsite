@@ -132,23 +132,23 @@ body {
   );
 }
 .hw {
-  border-radius: 6.278px;
+  /* border-radius: 6.278px; */
   background: var(--white, #fff);
   box-shadow: 5.23126px 5.23126px 31.38756px 0px rgba(136, 136, 136, 0.25);
 }
 .redGrad {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background: var(
     --merchant-gradient,
     linear-gradient(95deg, #cb174d 56.5%, #9f1e44 82.76%)
   );
 }
 .greenGrad {
-  border-radius: 10px;
+  /* border-radius: 10px; */
 background: var(--greeennn, linear-gradient(175deg, #9BFF00 -54.29%, #008000 95.94%));
 }
 .under {
-border-radius: 9px;
+/* border-radius: 9px; */
   background: var(
     --Dark-purple-gradient,
     linear-gradient(96deg, #c371c3 23.99%, #280f44 107.44%)
@@ -160,4 +160,13 @@ border-radius: 9px;
 .step {
   fill: var(--white, #FFF);
 filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.08));
+}
+
+input[type="checkbox"] {
+  --color: initial;
+  color: var(--color);
+}
+
+input[type="checkbox"]:checked {
+  --color: red;
 }

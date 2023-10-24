@@ -14,7 +14,7 @@ const config: Config = {
         dark: "#001E1D",
         purple: "#370D66",
         red: "#CB1F52",
-        green: "0A8800",
+        green: "#0A8800",
         pitch: "#029099",
       },
       backgroundSize: {

@@ -181,14 +181,14 @@ export default function Header() {
           Business
         </Link>
         <Link
-          href="#"
+          href="/get-started"
           className="md:hidden rounded-xl px-6 h-12 flex justify-center items-center btnbg text-white w-full"
         >
           Get Started
         </Link>
       </nav>
       <Link
-        href="#"
+        href="/get-started"
         className="rounded-xl hidden px-10 h-12 md:flex justify-center items-center btnbg text-white w-fit min-w-fit"
       >
         Get Started
@@ -223,17 +223,8 @@ const Icon = ({ icon }: Props): JSX.Element => {
     <figure
       className={`relative z-[0] rounded-[4px] h-full min-w-full w-full text-2xl flex justify-center items-center `}
     >
-      <div className="backdrop-blur-[20px] rounded-[4px] bg-white opacity-[0.3] absolute w-full h-full left-0 top-0 z-[-1]">
-      </div>
+      <div className="backdrop-blur-[20px] rounded-[4px] bg-white opacity-[0.3] absolute w-full h-full left-0 top-0 z-[-1]"></div>
       <Image src={icon} alt="" className="h-10 w-10 opacity-[1] z-10" />
     </figure>
   );
 };
-
-// style={{
-//   backgroundColor: `${pathname?.includes("ride") && ride} ${
-//     pathname?.includes("food") && food
-//   } ${pathname?.includes("professional-service") && service} ${
-//     pathname?.includes("pay") && pay
-//   }`,
-// }}

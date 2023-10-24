@@ -1,0 +1,198 @@
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+import start from "@/assets/start.png";
+import playstore from "@/assets/playstore-w.png";
+import appstore from "@/assets/appstore-w.png";
+import done from "@/assets/sent.png";
+export default function Start() {
+  const [sent, setSent] = useState(false);
+  const [state, setState] = useState({
+    first: "",
+    last: "",
+    phone: "",
+    email: "",
+    city: "",
+    check: false,
+  });
+  const handleSubmit = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+    if (state.first && state.last && state.phone && state.email && state.city) {
+      const formDetails = new FormData();
+      console.log("submited");
+    }
+  };
+  return (
+    <>
+      {!sent && (
+        <main className="flex flex-col md:grid grid-cols-2 grid-rows-1 items-center">
+          <figure className="w-full h-full">
+            <Image src={start} alt="" className="w-full h-full object-cover" />
+          </figure>
+          <div className="flex flex-col gap-14 py-10 md:py-20 px-5 md:px-20">
+            <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-purple">
+              <b className="text-red font-[600] inline mr-3">{`Let's`}</b>
+              Get Started
+            </h2>
+            <form
+              className="w-full flex flex-col gap-7"
+              onSubmit={handleSubmit}
+            >
+              <label className="flex flex-col gap-3 w-full">
+                <span className="flex items-center gap-1 font-[600]">
+                  First Name
+                </span>
+                <input
+                  type="text"
+                  placeholder="John"
+                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  value={state.first}
+                  onChange={(e) =>
+                    setState((prevState) => ({
+                      ...prevState,
+                      first: e.target.value,
+                    }))
+                  }
+                />
+              </label>
+              <label className="flex flex-col gap-3 w-full">
+                <span className="flex items-center gap-1 font-[600]">
+                  Last Name
+                </span>
+                <input
+                  type="text"
+                  placeholder="Omotolani"
+                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  value={state.last}
+                  onChange={(e) =>
+                    setState((prevState) => ({
+                      ...prevState,
+                      last: e.target.value,
+                    }))
+                  }
+                />
+              </label>
+              <label className="flex flex-col gap-3 w-full">
+                <span className="flex items-center gap-1 font-[600]">City</span>
+                <input
+                  type="text"
+                  placeholder="Lagos"
+                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  value={state.city}
+                  onChange={(e) =>
+                    setState((prevState) => ({
+                      ...prevState,
+                      city: e.target.value,
+                    }))
+                  }
+                />
+              </label>
+              <label className="flex flex-col gap-3 w-full">
+                <span className="flex items-center gap-1 font-[600]">
+                  Phone
+                </span>
+                <input
+                  type="tel"
+                  placeholder="09012345678"
+                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  value={state.phone}
+                  onChange={(e) =>
+                    setState((prevState) => ({
+                      ...prevState,
+                      phone: e.target.value,
+                    }))
+                  }
+                />
+              </label>
+              <label className="flex flex-col gap-3 w-full">
+                <span className="flex items-center gap-1 font-[600]">
+                  Email Address
+                </span>
+                <input
+                  type="email"
+                  placeholder="john@email.com"
+                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  value={state.email}
+                  onChange={(e) =>
+                    setState((prevState) => ({
+                      ...prevState,
+                      email: e.target.value,
+                    }))
+                  }
+                />
+              </label>
+              <label className="flex items-center gap-2 w-full">
+                <input
+                  type="checkbox"
+                  className="h-5 w-5"
+                  onChange={() =>
+                    setState((prevState) => ({
+                      ...prevState,
+                      check: !state.check,
+                    }))
+                  }
+                  style={
+                    {
+                      "--color": state.check ? "red" : "initial",
+                    } as React.CSSProperties
+                  }
+                />
+                <span className="flex items-center gap-1">
+                  I’ve read and agreed to with our{" "}
+                  <span className="grad inline font-[600]">
+                    {" "}
+                    Terms of Services and Privacy Policy
+                  </span>
+                </span>
+              </label>
+              <button
+                className="font-[600] btnbg text-white h-[70px] w-full rounded-xl px-5"
+                onClick={
+                  state.check
+                    ? () => setSent(true)
+                    : () => {
+                        return;
+                      }
+                }
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
+        </main>
+      )}
+      {sent && (
+        <main className="min-h-screen bg-[#FFF3F6] px-5 py-10 md:py-20 flex justify-center  items-center flex-col gap-8 text-center">
+          <Image src={done} alt="" className="" />
+          <h3 className="text-purple text-[35px] md:text-[64px] font-[600]">
+            Congratulations
+          </h3>
+          <div className="flex flex-col gap-5">
+            <h4 className="text-red text-2xl md:text-[34px] font-[600]">
+              Welcome to the Hitch Family
+            </h4>
+            <p className="text-2xl">
+              You have successfully signed up to the hitch platform.{" "}
+              <br className="hidden md:block" /> Please download the application
+              to continue.
+            </p>
+            <div className="flex flex-col md:flex-row items-center  justify-center gap-5 text-lg mx-auto md:mx-0">
+              <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+                <Image src={playstore} alt="" className="h5" />
+                <span className="text-start flex flex-col gap-1">
+                  <small className="text-xs">Download on</small> Google Play
+                </span>
+              </button>
+              <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+                <Image src={appstore} alt="" className="h-" />
+                <span className="text-start flex flex-col gap-1">
+                  <small className="text-xs">Download on</small> Apple Store
+                </span>
+              </button>
+            </div>
+          </div>
+        </main>
+      )}
+    </>
+  );
+}
