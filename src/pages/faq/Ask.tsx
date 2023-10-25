@@ -12,7 +12,7 @@ export default function Ask() {
         <figure className="w-full h-full flex justify-center items-center">
           <Image src={ask} alt="" className="scale-125 object-contain" />
         </figure>
-        <div className="py-16 w-full flex flex-col gap-4 text-white bg-blue-400">
+        <div className="py-20 w-full flex flex-col gap-4 text-white">
           <p className="text-xl">
             You can ask about anything you wish to learn
             <br className="hidden md:block" />
