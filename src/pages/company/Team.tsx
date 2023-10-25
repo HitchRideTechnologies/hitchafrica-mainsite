@@ -11,7 +11,8 @@ import team9 from "@/assets/team/team9.png"
 import team10 from "@/assets/team/team10.png"
 import team11 from "@/assets/team/team11.png"
 import team12 from "@/assets/team/team12.png"
-import Image from 'next/image'
+import Image, { StaticImageData } from "next/image";
+
 export default function Team() {
   return (
     <main
