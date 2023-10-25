@@ -167,14 +167,14 @@ export default function Header() {
           )}
         </div>
         <Link
-          href="#company"
+          href="/company"
           onClick={() => setOpen(false)}
           className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
         >
           Company
         </Link>
         <Link
-          href="#business"
+          href="/business"
           onClick={() => setOpen(false)}
           className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
         >
