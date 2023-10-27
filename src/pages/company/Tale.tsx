@@ -1,4 +1,4 @@
-import bg from "@/assets/hero-press.png";
+import bg from "@/assets/talebg.png";
 import Image from "next/image"
 import tale from "@/assets/company7.png"
 
@@ -6,7 +6,7 @@ export default function Tale() {
   return (
     <main
       className="py-10 md:py-24 flex flex-col gap-7 md:gap-14 text-lg text-center justify-center items-center text-white px-5 md:px-20 bg-primary bg-no-repeat bg-cover bg-center"
-    //   style={{ backgroundImage: `url(${bg.src})` }}
+      style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className="flex flex-col gap-4 md:gap-8 text-center justify-center items-center">
 
