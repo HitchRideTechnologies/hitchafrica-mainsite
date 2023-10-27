@@ -11,7 +11,7 @@ export default function Become() {
             <b className="text-purple font-[600] block">Partner</b>
             With Progress
           </h2>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
           Join our digital banking community, where your <br className="hidden md:block" /> business thrives amidst cutting-edge digital <br className="hidden md:block" /> solutions and unparalleled support.
           </p>
           <Link

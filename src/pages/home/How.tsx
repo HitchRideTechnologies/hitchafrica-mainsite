@@ -19,7 +19,7 @@ export default function How() {
         className="flex flex-col gap-10 md:gap-0 md:grid grid-cols-[1fr_2fr_1fr] grid-rows-1 justify-center items-center text-lg md:text-2xl bg-center bg-contain bg-no-repeat"
       >
         <div className="flex flex-col gap-10 md:gap-40 justify-between items-end w-full">
-          <nav className="w-fit flex flex-col gap-3 items-end text-end">
+          <nav className="w-fit flex flex-col gap-3 md:items-end md:text-end">
             <span className="bg-[#F8F2FF] rounded h-[50px] md:h-[90px] w-[50px] md:w-[90px] flex justify-center items-center text-3xl md:text-[48px]">
               <span className="grad">1</span>
             </span>
@@ -34,7 +34,7 @@ export default function How() {
             </span>
             <b className="font-[600] text-black text-2xl">Perform a Transaction</b>
             <p>
-              Swiftly execute transactions <br />
+              Swiftly execute transactions <br className="hidden md:block" />
               —shop, send money or order <br className="hidden md:block" /> groceries.
             </p>
           </nav>
@@ -46,7 +46,7 @@ export default function How() {
               Select your preferred service
             </b>
             <p>
-              Choose from various services <br className="hidden md:block" /> —meals, rides, and more.
+              Choose from various services <br className="hidden md:block" />—meals, rides, and more.
             </p>
           </nav>
         </div>
@@ -54,7 +54,7 @@ export default function How() {
           <Image src={bg} alt="" className="h-full w-full scale-80 object-contain" />
         </figure>
         <div className="flex flex-col gap-10 md:gap-40 justify-between items-start w-full">
-        <nav className="w-fit md:hidden flex flex-col gap-3 items-end text-end">
+        <nav className="w-fit md:hidden flex flex-col gap-3 md:items-end md:text-end">
             <span className="bg-[#F8F2FF] rounded h-[50px] md:h-[90px] w-[50px] md:w-[90px] flex justify-center items-center text-3xl md:text-[48px]">
               <span className="grad">3</span>
             </span>
