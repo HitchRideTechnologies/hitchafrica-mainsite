@@ -9,7 +9,7 @@ export default function Ask() {
         className="shadow-xl px-5 md:px-20 flex flex-col md:grid grid-cols-2 gap-10 md:gap-16 items-center relative bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
-        <figure className="w-full h-full flex justify-center items-center">
+        <figure className="w-full h-full hidden md:flex justify-center items-center">
           <Image src={ask} alt="" className="scale-125 object-contain" />
         </figure>
         <div className="py-20 w-full flex flex-col gap-4 text-white">

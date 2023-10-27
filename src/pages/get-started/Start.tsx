@@ -45,7 +45,7 @@ export default function Start() {
                 <input
                   type="text"
                   placeholder="John"
-                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  className="h-14 md:h-[70px] px-3 border z-10 w-full outline-none rounded-lg md:ounded-xl"
                   value={state.first}
                   onChange={(e) =>
                     setState((prevState) => ({
@@ -62,7 +62,7 @@ export default function Start() {
                 <input
                   type="text"
                   placeholder="Omotolani"
-                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  className="h-14 md:h-[70px] px-3 border z-10 w-full outline-none rounded-lg md:ounded-xl"
                   value={state.last}
                   onChange={(e) =>
                     setState((prevState) => ({
@@ -77,7 +77,7 @@ export default function Start() {
                 <input
                   type="text"
                   placeholder="Lagos"
-                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  className="h-14 md:h-[70px] px-3 border z-10 w-full outline-none rounded-lg md:ounded-xl"
                   value={state.city}
                   onChange={(e) =>
                     setState((prevState) => ({
@@ -94,7 +94,7 @@ export default function Start() {
                 <input
                   type="tel"
                   placeholder="09012345678"
-                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  className="h-14 md:h-[70px] px-3 border z-10 w-full outline-none rounded-lg md:ounded-xl"
                   value={state.phone}
                   onChange={(e) =>
                     setState((prevState) => ({
@@ -111,7 +111,7 @@ export default function Start() {
                 <input
                   type="email"
                   placeholder="john@email.com"
-                  className="h-[70px] px-3 border z-10 w-full outline-none rounded-xl"
+                  className="h-14 md:h-[70px] px-3 border z-10 w-full outline-none rounded-lg md:ounded-xl"
                   value={state.email}
                   onChange={(e) =>
                     setState((prevState) => ({
@@ -131,13 +131,8 @@ export default function Start() {
                       check: !state.check,
                     }))
                   }
-                  style={
-                    {
-                      "--color": state.check ? "red" : "initial",
-                    } as React.CSSProperties
-                  }
                 />
-                <span className="flex items-center gap-1">
+                <span className="inline md:flex items-center gap-1 word-wrap">
                   I’ve read and agreed to with our{" "}
                   <span className="grad inline font-[600]">
                     {" "}
@@ -146,7 +141,7 @@ export default function Start() {
                 </span>
               </label>
               <button
-                className="font-[600] btnbg text-white h-[70px] w-full rounded-xl px-5"
+                className="font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5"
                 onClick={
                   state.check
                     ? () => setSent(true)

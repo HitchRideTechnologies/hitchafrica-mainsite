@@ -8,7 +8,7 @@ export default function Sub() {
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <div className="flex flex-col text-white">
-          <h3 className="text-[48px] font-[700] leading-normal">
+          <h3 className="text-3xl md:text-[48px] font-[700] leading-normal">
             Sign up for free. <br className="hidden md:block" />
             Make a great choice.
           </h3>
@@ -16,10 +16,10 @@ export default function Sub() {
         <label className="rounded-md bg-white h-16 w-full flex items-center px-2">
           <input
             type="text"
-            className="w-full h-full px-5 bg-inherit text-sm md:text-base rounded-md outline-none"
+            className="w-full h-full md:px-5 bg-inherit text-sm md:text-base rounded-md outline-none"
             placeholder="Enter your email address to get started"
           />
-          <button className="h-[80%] w-fit min-w-fit px-5 text-white bg-primary font-[600] rounded-md">
+          <button className="h-[80%] w-fit min-w-fit px-5 text-sm md:text-base text-white bg-primary font-[600] rounded-md">
             Sign Up
           </button>
         </label>

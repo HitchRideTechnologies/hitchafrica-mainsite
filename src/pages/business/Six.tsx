@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Six() {
   return (
     <main className="flex flex-col gap-14 items-center py-10 md:py-20 px-5 md:px-20 bg-[#FAF6FF]">
-      <div className="flex flex-col-reverse md:flex-row gap-14 md:gap-24 items-center justify-center">
+      <div className="flex flex-col md:flex-row gap-14 md:gap-24 items-center justify-center">
         <figure>
           <Image src={im} alt="" />
         </figure>
@@ -14,7 +14,7 @@ export default function Six() {
             <b className="text-purple font-[600] block">Partner</b>
             With Progress
           </h2>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             Join our digital banking community, where your{" "}
             <br className="hidden md:block" /> business thrives amidst
             cutting-edge digital <br className="hidden md:block" /> solutions

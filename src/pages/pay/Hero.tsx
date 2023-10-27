@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="">
       <div className="flex flex-col md:flex-row justify-end items-center gap-10 md:gap-14 z-0 relative">
         <div className="flex flex-col gap-10 min-w-fit w-fit">
-          <div className="flex flex-col gap-5">
+          <div className="px-5 md:px-0  py-10 md:py-0 flex flex-col gap-5">
             <h2 className="text-3xl md:text-[60px] font-[600] leading-normal">
               <span className="grad inline"> Send, Receive</span> and{" "}
               <br className="hidden md:block" />

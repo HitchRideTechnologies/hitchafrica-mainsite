@@ -54,18 +54,18 @@ export default function Two() {
 
   return (
     <main className="px-5 md:px-20 py-10 md:py-14 flex flex-col gap-10">
-        <h3 className="text-3xl md:text-[40px] font-[500] text-red">Account and Registration</h3>
+        <h3 className="text-2xl md:text-[40px] font-[500] text-red">Account and Registration</h3>
         <div className="w-full flex flex-col gap-5">
           {List.map((info, index) => (
             <nav
-              className="shad px-5 py-4 rounded-lg flex flex-col gap-3 leading-relaxed transition ease-in-out duration-1000 h-fit"
-              key={index}
+            className="shad px-3 md:px-5 py-2 md:py-4 rounded-lg flex flex-col gap-3 leading-relaxed transition ease-in-out duration-1000 h-fit"
+            key={index}
+          >
+            <div
+              className="flex justify-between items-center text-lg md:text-2xl cursor-pointer"
+              onClick={() => handleButtonClick(index)}
             >
-              <div
-                className="flex justify-between items-center text-2xl cursor-pointer"
-                onClick={() => handleButtonClick(index)}
-              >
-                <span>{info.question}</span>
+              <span>{info.question}</span>
                 <button
                   className={`font-[600] redGrad text-white rounded-[50%] min-h-8 min-w-8 h-10 w-10  flex justify-center items-center transition-all ease-in-out duration-1000`}
                 >

@@ -2,7 +2,7 @@ export default function Policies() {
   return (
     <main className="flex flex-col gap-10 md:gap-20 text-lg md:text-2xl  px-5 md:px-20 py-10 md:py-20 leading-loose">
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           1. Acceptance of Terms
         </h4>
         <p>
@@ -12,7 +12,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           2. Use of Services
         </h4>
         <p>
@@ -22,7 +22,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           3. User Accounts
         </h4>
         <p>
@@ -33,7 +33,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           4. Intellectual Property
         </h4>
         <p>
@@ -43,7 +43,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           5. Prohibited Activities
         </h4>
         <ul className="list disc px-5">
@@ -54,7 +54,7 @@ export default function Policies() {
         </ul>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           6. Disclaimer of Warranties
         </h4>
         <p>
@@ -64,7 +64,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           7. Limitation of Liability
         </h4>
         <p>
@@ -74,7 +74,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           8. Governing Law
         </h4>
         <p>
@@ -83,7 +83,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           9. Changes to Terms
         </h4>
         <p>
@@ -92,7 +92,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+                <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           10. Contact Us
         </h4>
         <p>

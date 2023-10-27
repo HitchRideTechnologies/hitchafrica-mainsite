@@ -2,7 +2,7 @@ export default function Policies() {
   return (
     <main className="flex flex-col gap-10 md:gap-20 text-lg md:text-2xl  px-5 md:px-20 py-10 md:py-20 leading-loose">
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           1. Introduction
         </h4>
         <p>
@@ -17,7 +17,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           2. Information We Collect
         </h4>
         <p>
@@ -34,7 +34,7 @@ export default function Policies() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           3. How We Use Your Information
         </h4>
         <p>
@@ -47,7 +47,7 @@ export default function Policies() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           4. Information Sharing
         </h4>
         <p>
@@ -58,7 +58,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           5. Security
         </h4>
         <p>
@@ -69,7 +69,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           6. Your Choices
         </h4>
         <p>
@@ -81,7 +81,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           7. Updates to this Privacy Policy
         </h4>
         <p>
@@ -92,7 +92,7 @@ export default function Policies() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h4 className="text-red font-[500] text-3xl md:text-[40px]">
+        <h4 className="text-red font-[500] text-2xl md:text-[40px]">
           8. Contact Us
         </h4>
         <p>

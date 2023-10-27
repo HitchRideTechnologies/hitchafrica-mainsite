@@ -20,8 +20,8 @@ export default function Hero() {
         </div>
         <div className="flex flex-col gap-5 text-center justify-center items-center">
 
-      <h1 className="text-3xl md:text-[48px] font-[600]">We are super-charging the products game in Africa</h1>
-      <p className="text-xl md:text-2xl font-[400]">At Hitch, we are creating the future for Africans. With our all-in-one platform, we <br className="hidden md:block"/> provide convenience and value in one place.</p>
+      <h1 className="text-2xl md:text-[48px] font-[600]">We are super-charging the products game in Africa</h1>
+      <p className="text-lg md:text-2xl font-[400]">At Hitch, we are creating the future for Africans. With our all-in-one platform, we <br className="hidden md:block"/> provide convenience and value in one place.</p>
         </div>
     </div>
     <div className="px-5 flex flex-col md:flex-row gap-7 justify-evenly py-10 md:py-16 w-full bg-primary">

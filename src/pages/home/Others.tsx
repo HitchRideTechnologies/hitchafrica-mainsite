@@ -15,7 +15,7 @@ export default function Others() {
           <span className="text-red">Connecting Journeys,</span> Delivering
           Convenience
         </h3>
-        <p className="text-2xl">
+        <p className="text-lg md:text-2xl">
           HitchAfrica- Your All-in-One Service Companion
         </p>
       </div>

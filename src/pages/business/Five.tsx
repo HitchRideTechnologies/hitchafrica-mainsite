@@ -12,7 +12,7 @@ export default function Five() {
             Sell Fresh,
             <br className="hidden md:block" /> Thrive More
           </h2>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             You not only sell high-quality, farm-fresh products{" "}
             <br className="hidden md:block" /> but also open doors to a thriving
             marketplace where <br className="hidden md:block" /> your offerings

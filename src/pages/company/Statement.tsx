@@ -11,11 +11,11 @@ export default function Statement() {
         <div
           className="flex flex-col gap-5 w-full bg-[#CBEEF4]"
         >
-          <div className="w-full flex flex-col gap-5 px-5 md:px-20 py-10 md:py-20">
+          <div className="w-full flex flex-col gap-5 px-5 md:px-20 py-7 md:py-20">
               <h3 className="text-3xl md:text-[48px] font-[600] leading-snug other1">
                 Our Vision
               </h3>
-            <p className="text-xl md:text-2xl">
+            <p className="text-lg md:text-2xl">
             At Hitch, we are creating the future for <br className="hidden md:block" /> Africans. 
             </p>
           </div>
@@ -26,11 +26,11 @@ export default function Statement() {
         <div
           className="flex flex-col gap-5 w-full bg-[#F3EDF9]"
         >
-          <div className="w-full flex flex-col gap-5 px-5 md:px-20 py-10 md:py-20">
+          <div className="w-full flex flex-col gap-5 px-5 md:px-20 py-7 md:py-20">
               <h3 className="text-3xl md:text-[48px] font-[600] leading-snug grad">
                 Our Mission
               </h3>
-            <p className="text-xl md:text-2xl">
+            <p className="text-lg md:text-2xl">
             At Hitch, we are creating the future for <br className="hidden md:block" /> Africans. 
             </p>
           </div>

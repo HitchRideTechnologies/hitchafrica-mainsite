@@ -14,7 +14,7 @@ export default function Features() {
         <h3 className="min-w-fit text-3xl md:text-[40px] text-[#370D66] font-[600]">
           <span className="text-[#CB1F52] inline"> Our Exciting</span> Features
         </h3>
-        <p className="text-xl md:text-2xl">
+        <p className="text-lg md:text-2xl">
           Explore some amazing features of our super-app, where innovation meets
           convenience to redefine your digital experience. Welcome to a world
           where every feature is designed to make your journey smoother and more

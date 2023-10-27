@@ -91,24 +91,24 @@ export default function FAQ() {
         <h3 className="text-3xl md:text-[40px] text-purple font-[700]">
           <span className="text-red">Frequently Asked </span> Questions
         </h3>
-        <p className="text-2xl">
+        <p className="text-lg md:text-2xl">
           Answers to Your Questions: Clearing Doubts and Providing Clarity
         </p>
       </div>
-      <section className="grid grid-cols-[1.2fr_1fr] grid-rows-1 gap-10">
+      <section className="flex flex-col-reverse md:grid grid-cols-[1.2fr_1fr] grid-rows-1 gap-5 md:gap-10">
         <div className="w-full flex flex-col gap-5">
           {List.slice(start, end).map((info, index) => (
             <nav
-              className="shad px-5 py-4 rounded-lg flex flex-col gap-3 leading-relaxed transition ease-in-out duration-1000 h-fit"
+              className="shad px-5 py-2 md:py-4 rounded-lg flex flex-col gap-3 leading-relaxed transition ease-in-out duration-1000 h-fit"
               key={index}
             >
               <div
-                className="flex justify-between items-center text-xl cursor-pointer"
+                className="flex justify-between items-center md:text-xl cursor-pointer"
                 onClick={() => handleButtonClick(index)}
               >
                 <span>{info.question}</span>
                 <button
-                  className={`font-[600] bg-primary text-white rounded-[50%] min-h-8 min-w-8 h-10 w-10  flex justify-center items-center transition-all ease-in-out duration-1000`}
+                  className={`font-[600] bg-primary text-white rounded-[50%] min-h-8 min-w-8 h-8 w-8 md:min-h-10 md:min-w-10 md:h-10 md:w-10 text-sm md:text-base flex justify-center items-center transition-all ease-in-out duration-1000`}
                 >
                   {activeIndices.has(index) ? <FaMinus /> : <FaPlus />}
                 </button>
@@ -159,7 +159,7 @@ export default function FAQ() {
         </div>
         <div className="flex flex-col gap-5">
           <Image src={faq} alt="" className="shad w-full" />
-          <p className="text-xl">
+          <p className="md:text-xl">
             You can ask about anything you wish you learn about HitchAfrica
           </p>
           <label className="flex bg-white h-14 rounded-lg px-2 shad">
@@ -168,7 +168,7 @@ export default function FAQ() {
               placeholder="Let us know"
               className="w-full px-2 h-full bg-inherit text-sm"
             />
-            <button className="min-w-fit w-fit px-10 text-white bg-primary h-[90%] my-auto rounded-md">
+            <button className="min-w-fit w-fit px-5 md:px-10 text-white bg-primary h-[90%] my-auto rounded-md">
               Send
             </button>
           </label>

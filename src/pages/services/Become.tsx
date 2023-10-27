@@ -8,11 +8,11 @@ export default function Become() {
       <div className="flex flex-col-reverse md:flex-row gap-14 md:gap-24 items-center justify-center">
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-purple">
-            <b className="grad font-[600] block">Join Now:</b>
-            Expertise Thrives
+            <b className="grad font-[600] md:block">Join Now:</b>{" "}
+            Expertise Thrives{" "}
             <br className="hidden md:block" /> Here
           </h2>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             Here at Hitch, we provide a dynamic{" "}
             <br className="hidden md:block" /> environment where expertise
             flourishes, <br className="hidden md:block" /> offering you a unique

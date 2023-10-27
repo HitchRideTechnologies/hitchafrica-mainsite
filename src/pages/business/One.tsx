@@ -11,7 +11,7 @@ export default function One() {
             <b className="grad2 font-[600] block">Drive with Hitch: </b>
             Earn On Your <br className="hidden md:block" /> Own Time
           </h2>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             Our platform empowers you to drive and earn on <br className="hidden md:block" /> your own schedule,
             giving you the flexibility and <br className="hidden md:block" /> control you deserve.
           </p>

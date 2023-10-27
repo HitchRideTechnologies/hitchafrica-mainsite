@@ -38,7 +38,7 @@ export default function Header() {
   useOnHoverOutside(dropdownRef, closeHoverMenu);
 
   return (
-    <header className="sticky bg-white md:bg-inherit top-0 left-0 backdrop-blur-[20px] z-[999999] shadow-md px-3 md:px-20 py-4 flex justify-between items-center">
+    <header className="sticky bg-white md:bg-inherit top-0 left-0 backdrop-blur-[20px] z-[999999] shadow-md px-3 md:px-20 py-2 md:py-4 flex justify-between items-center">
       <div className="relative flex items-center">
         <a href="/">
           <Image src={logo} alt="" className="mr-auto object-contain" />
@@ -47,55 +47,59 @@ export default function Header() {
       <nav
         className={`${
           open
-            ? " left-0 top-32  py-5  bg-white px-5 md:px-0"
-            : " top-32 left-[-900%]"
-        } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
+            ? " left-0 top-20  bg-white px-5 md:px-0"
+            : " top-20 left-[-900%]"
+        } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
       >
         <div
-          className="md:px-0 md:py-0 flex flex-col md:items-center"
+          className="md:px-0 md:py-0 flex flex-col md:items-center w-full"
           ref={dropdownRef}
         >
           <button
-            className="flex gap-1 items-center hover:text-primary transition-colors ease-in-out duration-1000"
+            className="flex gap-1 items-center py-4 md:py-0 border-b md:border-none hover:text-primary transition-colors ease-in-out duration-1000"
             onMouseOver={() => setMenuDropDownOpen(true)}
             onClick={() => setMenuDropDownOpen(!isMenuDropDownOpen)}
           >
             Products
             {isMenuDropDownOpen ? (
-              <FaCaretUp className="hidden md:block" />
+              <FaCaretUp className="" />
             ) : (
-              <FaCaretDown className="hidden md:block" />
+              <FaCaretDown className="" />
             )}
           </button>
           {isMenuDropDownOpen && (
             <div
-              className={`hidden md:grid grid-cols-2 items-start text-sm gap-5 md:absolute md:rounded-xl mx-auto mt-5  text-white w-full md:w-[unset] p-8 bg-primary ${
-                pathname?.includes("ride") && "bg-secondary"
-              } ${pathname?.includes("food") && "bg-red"} ${
+              className={`overflow-y-scroll snap flex flex-col md:grid grid-cols-2 items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary ${
+                pathname?.includes("ride") && "bg-white md:bg-secondary"
+              } ${pathname?.includes("food") && "bg-white md:bg-red"} ${
                 pathname?.includes("professional-service") &&
-                "bg-gradient-to-r from-[#c371c3] to-[#280f44]"
-              } ${pathname?.includes("pay") && "bg-primary"}`}
+                "bg-white md:bg-gradient-to-r from-[#c371c3] to-[#280f44]"
+              } ${pathname?.includes("pay") && "bg-white md:bg-primary"}`}
             >
               <Link
                 href="/ride"
-                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon icon={hicon1} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] min-w-fit">Book a ride</b>
-                  <p>
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                    Book a ride
+                  </b>
+                  <p className="hidden md:block">
                     Book a ride from anywhere in <br /> Nigeria
                   </p>
                 </nav>
               </Link>
               <Link
                 href="/food"
-                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon icon={hicon2} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] min-w-fit">Food</b>
-                  <p>
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                    Food
+                  </b>
+                  <p className="hidden md:block">
                     Order your favorite food from <br />
                     your favorite vendor/ Restaurant
                   </p>
@@ -103,31 +107,31 @@ export default function Header() {
               </Link>
               <Link
                 href="/professional-services"
-                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon icon={hicon3} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] min-w-fit">
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
                     Professional Services
                   </b>
-                  <p>
+                  <p className="hidden md:block">
                     Book a professional for any service <br /> you need
                   </p>
                 </nav>
               </Link>
               <Link
                 href="/"
-                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon icon={hicon4} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] flex gap-1 items-center">
+                  <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
                     Shopping mart{" "}
                     <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
                       Coming soon
                     </span>
                   </b>
-                  <p>
+                  <p className="hidden md:block">
                     Shop from anywhere and get <br />
                     it delivered swiftly
                   </p>
@@ -135,12 +139,14 @@ export default function Header() {
               </Link>
               <Link
                 href="/pay"
-                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon icon={hicon5} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] min-w-fit">Hitch pay</b>
-                  <p>
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                    Hitch pay
+                  </b>
+                  <p className="hidden md:block">
                     Make payment for your services <br />
                     with hitchpay
                   </p>
@@ -148,17 +154,17 @@ export default function Header() {
               </Link>
               <Link
                 href="/package-delivery"
-                className="grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon icon={hicon6} />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-lg font-[600] flex gap-1 items-center">
+                  <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
                     Package Delivery{" "}
                     <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
                       Coming soon
                     </span>
                   </b>
-                  <p>
+                  <p className="hidden md:block">
                     Send and Pick-up anywhere in <br /> Nigeria
                   </p>
                 </nav>
@@ -176,7 +182,7 @@ export default function Header() {
         <Link
           href="/business"
           onClick={() => setOpen(false)}
-          className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
+          className="my-3 md:my-0 py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
         >
           Business
         </Link>
@@ -213,15 +219,9 @@ interface Props {
 }
 
 const Icon = ({ icon }: Props): JSX.Element => {
-  const pathname = usePathname();
-  const ride = "pink";
-  const food = "blue";
-  const service = "green";
-  const pay = "orange";
-
   return (
     <figure
-      className={`relative z-[0] rounded-[4px] h-full min-w-full w-full text-2xl flex justify-center items-center `}
+      className={`relative z-[0] rounded-[4px] h-full min-w-full w-full text-2xl hidden md:flex justify-center items-center `}
     >
       <div className="backdrop-blur-[20px] rounded-[4px] bg-white opacity-[0.3] absolute w-full h-full left-0 top-0 z-[-1]"></div>
       <Image src={icon} alt="" className="h-10 w-10 opacity-[1] z-10" />

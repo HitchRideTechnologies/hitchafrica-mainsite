@@ -9,7 +9,7 @@ export default function Release() {
         <h3 className="text-3xl md:text-[40px] text-[#370D66] font-[500] leading-snug">
           Press Release
         </h3>
-        <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-3">
+        <div className="flex flex-col gap-7 md:gap-10 md:grid grid-cols-3">
           <Single
             title="Hitch secures 1,000 vendors "
             date="December 13, 2023"
@@ -37,7 +37,7 @@ export default function Release() {
         <h3 className="text-3xl md:text-[40px] text-[#03464A] font-[500] leading-snug">
           In the Media
         </h3>
-        <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-3">
+        <div className="flex flex-col gap-7 md:gap-10 md:grid grid-cols-3">
           <Single
             title="Hitch secures 1,000 vendors "
             date="December 13, 2023"
@@ -76,11 +76,11 @@ const Single = ({ icon, title, date, outlet }: Props): JSX.Element => {
   return (
     <nav className="w-full flex flex-col gap-3 uppercase">
       <Image src={icon} alt="" className="w-full" />
-      <button className="w-fit px-5 h-12 bg-[#F5F5F5] rounded text-[#5F5F5F]">
+      <button className="w-fit px-5 h-10 md:h-12 text-sm md:text-base bg-[#F5F5F5] rounded text-[#5F5F5F]">
         {outlet}
       </button>
-      <b className="font-[500] text-2xl text-black">{title}</b>
-      <p className="mt-auto font-[300] capitalize">{date}</p>
+      <b className="font-[500] text-xl md:text-2xl text-black">{title}</b>
+      <p className="md:mt-auto font-[300] capitalize">{date}</p>
     </nav>
   );
 };

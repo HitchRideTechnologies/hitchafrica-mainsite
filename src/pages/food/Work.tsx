@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function Work() {
   return (
     <main className="flex flex-col gap-10 md:gap-20 items-center py-10 md:py-20 px-5 md:px-20">
-      <h3 className="text-3xl md:text-[40px] text-red font-[700]">
+      <h3 className="text-center text-3xl md:text-[40px] text-red font-[700]">
         <span className="text-purple">How work</span> should work
       </h3>
-      <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-center justify-center">
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center justify-center">
         <figure>
           <Image src={service1} alt="" className="" />
         </figure>
@@ -18,7 +18,7 @@ export default function Work() {
             Discover your favorite
             <br className="hidden md:block" /> local restaurants
           </b>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             Experience a global palate of flavors through{" "}
             <br className="hidden md:block" /> our extensive range of amazing
             restaurants, <br className="hidden md:block" /> whether {`it's`}{" "}
@@ -34,12 +34,12 @@ export default function Work() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col-reverse md:flex-row gap-12 md:gap-16 items-center justify-center">
+      <div className="flex flex-col-reverse md:flex-row gap-8 md:gap-16 items-center justify-center">
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <b className="text-3xl md:text-[45px] font-[600] leading-tight">
             Order and pay <br className="hidden md:block" /> with ease
           </b>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             With just a few clicks, you can place your{" "}
             <br className="hidden md:block" /> order and make payment using your{" "}
             <br className="hidden md:block" /> preferred method, whether{" "}

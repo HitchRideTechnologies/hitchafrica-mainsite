@@ -98,7 +98,8 @@ body {
   background-size: auto auto;
   background-position: right bottom;
 }
-@media screen and (min-width: 700px) {
+
+@media screen and (max-width: 768px) {
   .otherbg {
     background-image: none;
   }    

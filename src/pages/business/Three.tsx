@@ -12,7 +12,7 @@ export default function Three() {
             Expertise Thrives <br className="hidden md:block" />
             Here
           </h2>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             Here at Hitch, we provide a dynamic environment{" "}
             <br className="hidden md:block" /> where expertise flourishes,
             offering you a unique <br className="hidden md:block" /> space to

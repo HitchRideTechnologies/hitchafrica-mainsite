@@ -20,13 +20,13 @@ import icon5 from "@/assets/icons/icon5.png"
 export default function People() {
   return (
     <main className="px-5 md:px-20 py-10 md:py-20 flex flex-col gap-8 md:gap-14 w-full">
-      <p className="text-2xl">
+      <p className="text-lg md:text-2xl">
         Get ready to be inspired, because here, our products are more than just
         items – {`they're`} a reflection of our dedication to making things that
         matter.
       </p>
       <div className="flex flex-col gap-5">
-        <h3 className="text-3xl md:text-[40px] why font-[500] leading-snug">
+        <h3 className="text-2xl md:text-[40px] why font-[500] leading-snug">
         Hitch Ride
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-2 grid-rows-1">
@@ -35,7 +35,7 @@ export default function People() {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        <h3 className="text-3xl md:text-[40px] text-purple font-[500] leading-snug">
+        <h3 className="text-2xl md:text-[40px] text-purple font-[500] leading-snug">
         Hitch Food
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-2 grid-rows-1">
@@ -44,7 +44,7 @@ export default function People() {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        <h3 className="text-3xl md:text-[40px] text-red font-[500] leading-snug">
+        <h3 className="text-2xl md:text-[40px] text-red font-[500] leading-snug">
         Hitch Professional Services
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-2 grid-rows-1">
@@ -53,7 +53,7 @@ export default function People() {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        <h3 className="text-3xl md:text-[40px] text-[#008000] font-[500] leading-snug">
+        <h3 className="text-2xl md:text-[40px] text-[#008000] font-[500] leading-snug">
         Hitch Mart
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-2 grid-rows-1">
@@ -62,7 +62,7 @@ export default function People() {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        <h3 className="text-3xl md:text-[40px] text-purple font-[500] leading-snug">
+        <h3 className="text-2xl md:text-[40px] text-purple font-[500] leading-snug">
         Hitch Pay
         </h3>
         <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-2 grid-rows-1">

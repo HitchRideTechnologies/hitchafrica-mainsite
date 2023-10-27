@@ -19,7 +19,7 @@ export default function Work() {
             </b>
             <span className="w-[100px] h-[5px] under"></span>
           </div>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             We designed a app for your lifestyle, and you{" "}
             <br className="hidden md:block" /> can get t make payment with ease.{" "}
             {`That's`} all <br className="hidden md:block" /> you need to make
@@ -27,7 +27,7 @@ export default function Work() {
           </p>
           <Link
             href="#"
-            className="rounded-md px-12 h-12 mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
+            className="rounded-md px-12 h-12 md:mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started
           </Link>
@@ -43,7 +43,7 @@ export default function Work() {
             </b>
             <span className="w-[100px] h-[5px] under"></span>
           </div>
-          <p className="text-2xl font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             In addition to our versatile digital wallet, {`we're`} thrilled to{" "}
             <br className="hidden md:block" /> introduce seamless Point of Sale
             (POS) integration.

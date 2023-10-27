@@ -12,10 +12,10 @@ export default function Brand() {
     return (
       <main className="px-5 md:px-20 py-10 md:py-20 flex flex-col gap-8 md:gap-24 w-full">
         <div className="flex flex-col gap-5 md:gap-10">
-        <p className="text-2xl">
+        <p className="text-lg md:text-2xl">
         Feel the heartbeat of our brand through every asset. Download, share, and be a part of the story {`we're`} telling through our distinctive visual journey.
         </p>
-          <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-3">
+          <div className="flex flex-col gap-8 md:gap-10 md:grid grid-cols-3">
             <Single img={logo1} text="Primary Logo" show={true} /> 
             <Single img={logo2} text="Other Logo" show={true} /> 
             <Single img={logo3} text="Other Logo" show={true} /> 
@@ -28,10 +28,10 @@ export default function Brand() {
         <h3 className="text-3xl md:text-[40px] font-[500] leading-snug">
           Logo Usage
           </h3>
-        <p className="text-2xl">
+        <p className="text-lg md:text-2xl">
         Our logo is a symbol of our brand identity, representing our values. Please ensure that when using our logo, you adhere to our brand guidelines to maintain its integrity and to present a unified and professional image across all platforms.
         </p>
-          <div className="flex flex-col gap-5 md:gap-10 md:grid grid-cols-3">
+          <div className="flex flex-col gap-8 md:gap-10 md:grid grid-cols-3">
           <Single img={logo4} text="Do not stretch the logo" show={false} /> 
             <Single img={logo5} text="Do not compress the logo" show={false} /> 
           <Single img={logo6} text="Do not use gradients" show={false} /> 

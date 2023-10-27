@@ -8,7 +8,7 @@ import step3 from "@/assets/steps/step3.svg";
 
 export default function Pay() {
   return (
-    <main className="flex flex-col md:flex-row items-center gap-10 md:gap-14 py-10 z-0 relative">
+    <main className="flex flex-col md:flex-row items-center gap-10 md:gap-14 py-10 px-5 md:px-0 z-0 relative">
       <div className="md:w-1/2">
         <Image src={pay3} alt="" className="object-cover w-full" />
       </div>
@@ -57,11 +57,11 @@ type StepProps = {
   
 const Step = ({ icon, text }: StepProps) => {
   return (
-    <nav className="flex items-center gap-5">
-      <figure className="min-w-16 min-h-16 w-16 h-16 step rounded-[50%] flex justify-center items-center bg-white">
-        <Image src={icon} alt="" className="h-8 w-8" />
+    <nav className="w-full flex items-center gap-3 md:gap-5">
+      <figure className="step rounded-[50%] flex justify-center items-center bg-white md:min-w-16 md:min-h-16 md:w-16 md:h-16 min-w-12 min-h-12 w-12 h-12">
+        <Image src={icon} alt="" className="md:h-8 md:w-8 h-6 w-6" />
       </figure>
-      <span className="text-lg font-[500]">
+      <span className="md:text-lg md:font-[500]">
         {text}
       </span>
     </nav>
