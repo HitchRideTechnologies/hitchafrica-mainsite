@@ -11,21 +11,21 @@ import bg from "@/assets/fbg.png";
 export default function Footer() {
   return (
     <footer
-      className="flex flex-col gap-14 md:gap-20 text-lg justify-center items-center text-white px-5 md:px-20 py-10 md:py-20 bg-primary bg-no-repeat bg-cover bg-center"
+      className="flex flex-col gap-14 md:gap-20 md:text-lg justify-center items-center text-white px-5 md:px-20 py-10 md:py-20 bg-primary bg-no-repeat bg-cover bg-center"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <section className="grid grid-cols-2 md:grid-cols-4 grid-rows-1 gap-5">
-        <div className="flex flex-col justify-between h-full col-span-2 md:col-span-1">
+        <div className="flex flex-col justify-between gap-5 h-full col-span-2 md:col-span-1">
           <Image src={logo} alt="" className="" />
           <div className="flex flex-col gap-5 md:p-5">
             <p>Available on</p>
             <nav className="flex flex-row gap-5 md:gap-10">
-              <button className="text-primary bg-white flex py-3 px-8 gap-4 rounded-full justify-center items-center w-fit">
-                <Image src={playstore} alt="" className="h5" />
+              <button className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
+                <Image src={playstore} alt="" className="h-full" />
                 Android
               </button>
-              <button className="text-primary bg-white flex py-3 px-8 gap-4 rounded-full justify-center items-center w-fit">
-                <Image src={appstore} alt="" className="h-" />
+              <button className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
+                <Image src={appstore} alt="" className="h-full" />
                 IOS
               </button>
             </nav>
