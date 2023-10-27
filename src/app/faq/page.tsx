@@ -1,4 +1,5 @@
 import Seamless from "@/pages/home/Seamless";
+import Hero from "@/pages/faq/Hero";
 import One from "@/pages/faq/One";
 import Two from "@/pages/faq/Two";
 import Three from "@/pages/faq/Three";
@@ -9,6 +10,7 @@ import Ask from "@/pages/faq/Ask";
 export default function Home() {
   return (
     <main className="flex flex-col justify-center z-[0] overflow-x-hidden snap relative bg-[#FFFFFE]">
+      <Hero />
       <One />
       <Two />
       <Three />
