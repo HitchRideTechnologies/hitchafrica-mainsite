@@ -32,7 +32,7 @@ export default function Why() {
           <b className="text-3xl md:text-[45px] font-[600] leading-tight">
             Worry not; our driver <br className="hidden md:block" /> will be there for you
           </b>
-          <p className="text-lg text-2xl md:font-[500]">
+          <p className="text-lg md:text-2xl md:font-[500]">
             Your safety and comfort are of utmost <br className="hidden md:block" /> importance to us and our
             driver-partners.<br className="hidden md:block" /> Whenever, wherever, go ahead and <br className="hidden md:block" /> order.
           </p>

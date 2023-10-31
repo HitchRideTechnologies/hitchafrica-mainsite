@@ -159,7 +159,7 @@ export default function FAQ() {
         </div>
         <div className="flex flex-col gap-5">
           <Image src={faq} alt="" className="shad w-full" />
-          <p className="md:text-xl">
+          {/* <p className="md:text-xl">
             You can ask about anything you wish you learn about HitchAfrica
           </p>
           <label className="flex bg-white h-14 rounded-lg px-2 shad">
@@ -171,7 +171,7 @@ export default function FAQ() {
             <button className="min-w-fit w-fit px-5 md:px-10 text-white bg-primary h-[90%] my-auto rounded-md">
               Send
             </button>
-          </label>
+          </label> */}
         </div>
       </section>
     </main>

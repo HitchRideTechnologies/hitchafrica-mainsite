@@ -16,12 +16,12 @@ export default function Hero() {
         <div className="flex flex-col gap-10 pl-5 min-w-fit w-fit">
           <div className="flex flex-col gap-5">
             <h2 className="text-3xl md:text-[60px] font-[600] leading-normal grad">
-              Hitch - Your <br className="hidden md:block" /> everyday app{" "}
+              Your everyday <br className="hidden md:block" /> super app{" "}
               <br className="hidden md:block" /> for Africans
             </h2>
             <p className="text-xl md:text-2xl">
               Connecting Journeys, Delivering Convenience:
-              <br className="hidden md:block" /> Hitch Africa-Your All-in-One
+              <br className="hidden md:block" />Your All-in-One
               Service Companion
             </p>
           </div>

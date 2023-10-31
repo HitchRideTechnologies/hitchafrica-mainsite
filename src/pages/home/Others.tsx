@@ -36,7 +36,7 @@ export default function Others() {
           Convenience
         </h3>
         <p className="text-lg md:text-2xl">
-          HitchAfrica- Your All-in-One Service Companion
+          Your All-in-One Service Companion
         </p>
       </div>
       <div className=" w-full flex flex-col md:grid grid-cols-2 gap-10">

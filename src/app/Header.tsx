@@ -38,7 +38,7 @@ export default function Header() {
   useOnHoverOutside(dropdownRef, closeHoverMenu);
 
   return (
-    <header className="sticky bg-white md:bg-inherit top-0 left-0 backdrop-blur-[20px] z-[999999] shadow-md px-3 md:px-20 py-2 md:py-4 flex justify-between items-center">
+    <header className="sticky bg-white top-0 left-0 z-[999999] shadow-md px-3 md:px-20 py-2 md:py-4 flex justify-between items-center">
       <div className="relative flex items-center">
         <a href="/">
           <Image src={logo} alt="" className="mr-auto object-contain" />
