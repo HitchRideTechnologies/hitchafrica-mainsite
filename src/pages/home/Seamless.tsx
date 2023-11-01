@@ -11,7 +11,7 @@ export default function Seemless() {
           Seamless Services for Your Every Need: Hitch, Deliver, Excel.
         </h3>
         <div className="flex flex-col gap-4">
-          <p>Available on </p>
+          <p>Available on</p>
           <div className="flex flex-row gap-5">
             <button className="bg-white flex flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit">
               <small className="text-xs text-[#101010]">Download on</small>
@@ -31,7 +31,7 @@ export default function Seemless() {
         </div>
       </div>
       <figure className="w-full h-full">
-        <Image src={phone} alt="" className="h-full w-full" />
+        <Image src={phone} alt="" className="object-contain h-full" />
       </figure>
     </div>
   );

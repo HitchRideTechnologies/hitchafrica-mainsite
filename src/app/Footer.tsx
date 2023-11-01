@@ -43,7 +43,13 @@ export default function Footer() {
         <div className="flex justify-center">
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Support</b>
-            <Link href="/">Report a bug</Link>
+            <a
+              href="https://api.whatsapp.com/send?phone=2347055554168"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Report a bug
+            </a>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-and-conditions">Terms & Conditions</Link>
             <Link href="/faq">FAQs</Link>
