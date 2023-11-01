@@ -1,5 +1,5 @@
 import Seamless from "@/pages/home/Seamless";
-import FAQ from "@/pages/home/FAQ";
+// import FAQ from "@/pages/home/FAQ";
 import Hero from "@/pages/company/Hero"
 import Statement from "@/pages/company/Statement"
 import Tale from "@/pages/company/Tale"
@@ -13,7 +13,7 @@ export default function Home() {
       <Tale />
       <Team />
       <Seamless />
-      <FAQ />
+      {/* <FAQ /> */}
     </main>
   );
 }

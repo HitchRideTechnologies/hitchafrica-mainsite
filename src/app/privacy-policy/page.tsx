@@ -1,7 +1,7 @@
 import Hero from "@/pages/privacy/Hero";
 import Policies from "@/pages/privacy/Policies";
 import Seamless from "@/pages/home/Seamless";
-import FAQ from "@/pages/home/FAQ";
+// import FAQ from "@/pages/home/FAQ";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <Policies />
       <Seamless />
-      <FAQ />
+      {/* <FAQ /> */}
     </main>
   );
 }

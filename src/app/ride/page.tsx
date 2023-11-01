@@ -3,7 +3,7 @@ import Why from "@/pages/ride/Why";
 import How from "@/pages/ride/How";
 import Become from "@/pages/ride/Become";
 import Seamless from "@/pages/home/Seamless";
-import FAQ from "@/pages/home/FAQ";
+// import FAQ from "@/pages/home/FAQ";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <How />
       <Become />
       <Seamless />
-      <FAQ />
+      {/* <FAQ /> */}
     </main>
   );
 }

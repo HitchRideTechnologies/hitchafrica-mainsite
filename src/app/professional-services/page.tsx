@@ -1,6 +1,6 @@
 import Hero from "@/pages/services/Hero";
 import Seamless from "@/pages/home/Seamless";
-import FAQ from "@/pages/home/FAQ";
+// import FAQ from "@/pages/home/FAQ";
 import Work from "@/pages/services/Work";
 import How from "@/pages/services/How";
 import Become from "@/pages/services/Become";
@@ -13,7 +13,7 @@ export default function Home() {
       <How />
       <Become />
       <Seamless />
-      <FAQ />
+      {/* <FAQ /> */}
     </main>
   );
 }

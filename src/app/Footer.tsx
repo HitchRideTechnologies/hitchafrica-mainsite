@@ -54,8 +54,8 @@ export default function Footer() {
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Contact Us</b>
             <p>Address: 16192 Coastal Highway, Lewes, Delaware, 19958</p>
-            <p>Phone Number: +1(302)262-1292</p>
-            <p>Contact Email: hi@hitchafrica</p>
+            <p>Phone Number: +2347055554168</p>
+            <p>Contact Email: hello@hitch.africa</p>
             <nav className="flex gap-5">
               <a href="" target="_blank" rel="noopener noreferrer">
                 <Image src={soc1} alt="" className="h-10 w-10" />

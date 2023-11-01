@@ -5,7 +5,7 @@ import Others from "@/pages/home/Others";
 import Pay from "@/pages/home/Pay";
 import Reviews from "@/pages/home/Reviews";
 import Sub from "@/pages/home/Sub";
-import FAQ from "@/pages/home/FAQ";
+// import FAQ from "@/pages/home/FAQ";
 import Seamless from "@/pages/home/Seamless";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <Pay />
       <Seamless />
       <Reviews />
-      <FAQ />
+      {/* <FAQ /> */}
       <Sub />
     </main>
   );

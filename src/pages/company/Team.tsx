@@ -32,14 +32,14 @@ Behind Hitch
         <Single img={team2} name="John Doe" pos="Co-founder" />
         <Single img={team3} name="John Doe" pos="Developer" />
         <Single img={team4} name="John Doe" pos="Designer" />
-        <Single img={team5} name="John Doe" pos="Product Manager" />
+        {/* <Single img={team5} name="John Doe" pos="Product Manager" />
         <Single img={team6} name="John Doe" pos="Co-founder" />
         <Single img={team7} name="John Doe" pos="Developer" />
         <Single img={team8} name="John Doe" pos="Designer" />
         <Single img={team9} name="John Doe" pos="Product Manager" />
         <Single img={team10} name="John Doe" pos="Co-founder" />
         <Single img={team11} name="John Doe" pos="Developer" />
-        <Single img={team12} name="John Doe" pos="Designer" />
+        <Single img={team12} name="John Doe" pos="Designer" /> */}
       </div>
     </main>
   );

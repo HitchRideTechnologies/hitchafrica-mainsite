@@ -1,6 +1,6 @@
 import Hero from "@/pages/press-and-media/Hero";
 import Seamless from "@/pages/home/Seamless";
-import FAQ from "@/pages/home/FAQ";
+// import FAQ from "@/pages/home/FAQ";
 
 
 
@@ -14,7 +14,7 @@ export default function RootLayout({
       <Hero />
         {children}
         <Seamless />
-      <FAQ />
+      {/* <FAQ /> */}
       </main>
   );
 }

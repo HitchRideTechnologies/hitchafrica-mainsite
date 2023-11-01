@@ -17,7 +17,7 @@ export default function Sub() {
           <input
             type="text"
             className="w-full h-full md:px-5 bg-inherit text-sm md:text-base rounded-md outline-none"
-            placeholder="Enter your email address "
+            placeholder="Enter your email address"
           />
           <button className="h-[80%] w-fit min-w-fit px-5 text-sm md:text-base text-white bg-primary font-[600] rounded-md">
             Subscribe
