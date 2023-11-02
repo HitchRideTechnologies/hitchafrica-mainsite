@@ -1,15 +1,20 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import Link from "next/link";
-import { FaBars, FaCaretDown, FaCaretUp, FaTimes } from "react-icons/fa";
+import {
+  FaBars,
+  FaCaretDown,
+  FaCaretUp,
+  FaTimes,
+  FaCar,
+  FaMugHot,
+  FaBriefcase,
+  FaShoppingCart,
+  FaCreditCard,
+  FaShuttleVan,
+} from "react-icons/fa";
 import logo from "@/assets/logo.png";
-import hicon1 from "@/assets/hicon1.png";
-import hicon2 from "@/assets/hicon2.png";
-import hicon3 from "@/assets/hicon3.png";
-import hicon4 from "@/assets/hicon4.png";
-import hicon5 from "@/assets/hicon5.png";
-import hicon6 from "@/assets/hicon6.png";
 import { usePathname } from "next/navigation";
 
 export function useOnHoverOutside(ref: any, handler: any) {
@@ -80,7 +85,7 @@ export default function Header() {
                 href="/ride"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={hicon1} />
+                <Icon icon={<FaCar className="text-3xl opacity-[1] z-10" />} />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
                     Book a ride
@@ -94,7 +99,9 @@ export default function Header() {
                 href="/food"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={hicon2} />
+                <Icon
+                  icon={<FaMugHot className="text-3xl opacity-[1] z-10" />}
+                />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
                     Food
@@ -109,7 +116,9 @@ export default function Header() {
                 href="/professional-services"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={hicon3} />
+                <Icon
+                  icon={<FaBriefcase className="text-3xl opacity-[1] z-10" />}
+                />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
                     Professional Services
@@ -123,7 +132,11 @@ export default function Header() {
                 href="/"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={hicon4} />
+                <Icon
+                  icon={
+                    <FaShoppingCart className="text-3xl opacity-[1] z-10" />
+                  }
+                />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
                     Shopping mart{" "}
@@ -141,7 +154,9 @@ export default function Header() {
                 href="/pay"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={hicon5} />
+                <Icon
+                  icon={<FaCreditCard className="text-3xl opacity-[1] z-10" />}
+                />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
                     Hitch pay
@@ -156,7 +171,8 @@ export default function Header() {
                 href="/package-delivery"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={hicon6} />
+                <Icon icon={<FaShuttleVan className="text-3xl opacity-[1] z-10" />}
+                />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
                     Package Delivery{" "}
@@ -215,7 +231,7 @@ export default function Header() {
 }
 
 interface Props {
-  icon: StaticImageData;
+  icon: JSX.Element;
 }
 
 const Icon = ({ icon }: Props): JSX.Element => {
@@ -224,7 +240,8 @@ const Icon = ({ icon }: Props): JSX.Element => {
       className={`relative z-[0] rounded-[4px] h-full min-w-full w-full text-2xl hidden md:flex justify-center items-center `}
     >
       <div className="backdrop-blur-[20px] rounded-[4px] bg-white opacity-[0.3] absolute w-full h-full left-0 top-0 z-[-1]"></div>
-      <Image src={icon} alt="" className="h-10 w-10 opacity-[1] z-10" />
+      {/* <Image src={icon} alt="" className="h-10 w-10 opacity-[1] z-10" /> */}
+      {icon}
     </figure>
   );
 };
