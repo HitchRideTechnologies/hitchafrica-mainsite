@@ -13,9 +13,14 @@ import {
   FaShoppingCart,
   FaCreditCard,
   FaShuttleVan,
+  FaCalendar,
+  FaClipboardCheck,
 } from "react-icons/fa";
 import logo from "@/assets/logo.png";
 import { usePathname } from "next/navigation";
+import exc from "@/assets/exc.png";
+import check from "@/assets/check.png";
+import clip from "@/assets/clip.png";
 
 export function useOnHoverOutside(ref: any, handler: any) {
   useEffect(() => {
@@ -35,12 +40,18 @@ export function useOnHoverOutside(ref: any, handler: any) {
 export default function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const dropdownRef = useRef(null);
-  const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);
-  const closeHoverMenu = () => {
-    setMenuDropDownOpen(false);
+  const dropdownRef1 = useRef(null);
+  const dropdownRef2 = useRef(null);
+  const [isMenuDropDownOpen1, setMenuDropDownOpen1] = useState(false);
+  const [isMenuDropDownOpen2, setMenuDropDownOpen2] = useState(false);
+  const closeHoverMenu1 = () => {
+    setMenuDropDownOpen1(false);
   };
-  useOnHoverOutside(dropdownRef, closeHoverMenu);
+  const closeHoverMenu2 = () => {
+    setMenuDropDownOpen2(false);
+  };
+  useOnHoverOutside(dropdownRef1, closeHoverMenu1);
+  useOnHoverOutside(dropdownRef2, closeHoverMenu2);
 
   return (
     <header className="sticky bg-white top-0 left-0 z-[999999] shadow-md px-3 md:px-20 py-2 md:py-4 flex justify-between items-center">
@@ -58,21 +69,21 @@ export default function Header() {
       >
         <div
           className="md:px-0 md:py-0 flex flex-col md:items-center w-full"
-          ref={dropdownRef}
+          ref={dropdownRef1}
         >
           <button
             className="flex gap-1 items-center py-4 md:py-0 border-b md:border-none hover:text-primary transition-colors ease-in-out duration-1000"
-            onMouseOver={() => setMenuDropDownOpen(true)}
-            onClick={() => setMenuDropDownOpen(!isMenuDropDownOpen)}
+            onMouseOver={() => setMenuDropDownOpen1(true)}
+            onClick={() => setMenuDropDownOpen1(!isMenuDropDownOpen1)}
           >
             Products
-            {isMenuDropDownOpen ? (
+            {isMenuDropDownOpen1 ? (
               <FaCaretUp className="" />
             ) : (
               <FaCaretDown className="" />
             )}
           </button>
-          {isMenuDropDownOpen && (
+          {isMenuDropDownOpen1 && (
             <div
               className={`overflow-y-scroll snap flex flex-col md:grid grid-cols-2 items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary ${
                 pathname?.includes("ride") && "bg-white md:bg-secondary"
@@ -171,7 +182,8 @@ export default function Header() {
                 href="/package-delivery"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
-                <Icon icon={<FaShuttleVan className="text-3xl opacity-[1] z-10" />}
+                <Icon
+                  icon={<FaShuttleVan className="text-3xl opacity-[1] z-10" />}
                 />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
@@ -188,13 +200,95 @@ export default function Header() {
             </div>
           )}
         </div>
-        <Link
-          href="/company"
-          onClick={() => setOpen(false)}
-          className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
+        <div
+          className="md:px-0 md:py-0 flex flex-col md:items-center w-full"
+          ref={dropdownRef2}
         >
-          Company
-        </Link>
+          <button
+            className="flex gap-1 items-center py-4 md:py-0 border-b md:border-none hover:text-primary transition-colors ease-in-out duration-1000"
+            onMouseOver={() => setMenuDropDownOpen2(true)}
+            onClick={() => setMenuDropDownOpen2(!isMenuDropDownOpen2)}
+          >
+            Company
+            {isMenuDropDownOpen2 ? (
+              <FaCaretUp className="" />
+            ) : (
+              <FaCaretDown className="" />
+            )}
+          </button>
+          {isMenuDropDownOpen2 && (
+            <div
+              className={`overflow-y-scroll snap flex flex-col  items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary `}
+            >
+              <Link
+                href="/company"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon
+                  icon={
+                    <Image
+                      src={exc}
+                      alt=""
+                      className="w-[30px] h-[30px] opacity-[1] z-10"
+                    />
+                  }
+                />
+                <nav className="flex flex-col gap-2">
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                    About Us
+                  </b>
+                  <p className="hidden md:block">
+                    Get to know us a little better
+                  </p>
+                </nav>
+              </Link>
+              <Link
+                href="/privacy-policy"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon
+                  icon={
+                    <Image
+                      src={check}
+                      alt=""
+                      className="w-[30px] h-[30px] opacity-[1] z-10"
+                    />
+                  }
+                />
+                <nav className="flex flex-col gap-2">
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                    Privacy Policy
+                  </b>
+                  <p className="hidden md:block">
+                    For your security and safety
+                  </p>
+                </nav>
+              </Link>
+              <Link
+                href="/terms-and-conditions"
+                className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
+              >
+                <Icon
+                  icon={
+                    <Image
+                      src={clip}
+                      alt=""
+                      className="w-[30px] h-[30px] opacity-[1] z-10"
+                    />
+                  }
+                />
+                <nav className="flex flex-col gap-2">
+                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                    Terms and Conditions
+                  </b>
+                  <p className="hidden md:block">
+                    Know more about our policies
+                  </p>
+                </nav>
+              </Link>
+            </div>
+          )}
+        </div>
         <Link
           href="/business"
           onClick={() => setOpen(false)}
