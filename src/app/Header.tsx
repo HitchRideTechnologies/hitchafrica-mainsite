@@ -300,14 +300,14 @@ export default function Header() {
           href="/get-started"
           className="md:hidden rounded-xl px-6 h-12 flex justify-center items-center btnbg text-white w-full"
         >
-          Get Started
+          Contact Us
         </Link>
       </nav>
       <Link
         href="/get-started"
         className="rounded-xl hidden px-10 h-12 md:flex justify-center items-center btnbg text-white w-fit min-w-fit"
       >
-        Get Started
+        Contact Us
       </Link>
       {open ? (
         <FaTimes
