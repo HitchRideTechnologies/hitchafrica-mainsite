@@ -12,10 +12,10 @@ import img3 from "@/assets/car/img3.png";
 import img4 from "@/assets/car/img4.png";
 import img5 from "@/assets/car/img5.png";
 import img6 from "@/assets/car/img6.png";
-import img7 from "@/assets/car/img7.png";
-import img8 from "@/assets/car/img8.png";
-import img9 from "@/assets/car/img9.png";
-import img10 from "@/assets/car/img10.png";
+// import img7 from "@/assets/car/img7.png";
+// import img8 from "@/assets/car/img8.png";
+// import img9 from "@/assets/car/img9.png";
+// import img10 from "@/assets/car/img10.png";
 
 export default function Features() {
   return (
@@ -49,10 +49,10 @@ export default function Features() {
         <Image src={img4} alt="" className="px-5 mt-20 z-10" />
         <Image src={img5} alt="" className="px-5 " />
         <Image src={img6} alt="" className="px-5 mt-20 z-10" />
-        <Image src={img7} alt="" className="px-5 " />
+        {/* <Image src={img7} alt="" className="px-5 " />
         <Image src={img8} alt="" className="px-5 mt-20 z-10" />
         <Image src={img9} alt="" className="px-5 " />
-        <Image src={img10} alt="" className="px-5 mt-20 z-10" />
+        <Image src={img10} alt="" className="px-5 mt-20 z-10" /> */}
       </Marquee>
     </section>
   );
