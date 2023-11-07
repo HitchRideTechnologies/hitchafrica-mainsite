@@ -34,7 +34,7 @@ export default function Features() {
           enjoyable.
         </p>
       </div>
-      <Marquee className="" autoFill={true} speed={170}>
+      <Marquee className="" autoFill={true} speed={150}>
         <Feat icon={feat1} title="All-in-one Convenience" />
         <Feat icon={feat2} title="Secured Payments" />
         <Feat icon={feat3} title="Swift Deliveries" />
@@ -42,17 +42,49 @@ export default function Features() {
         <Feat icon={feat5} title="Stringent quality control" />
         <Feat icon={feat6} title="24/7 Customer Support" />
       </Marquee>
-      <Marquee className="" autoFill={true} speed={170}>
-        <Image src={img1} alt="" className="px-5 " />
-        <Image src={img2} alt="" className="px-5 mt-20 z-10" />
-        <Image src={img3} alt="" className="px-5 " />
-        <Image src={img4} alt="" className="px-5 mt-20 z-10" />
-        <Image src={img5} alt="" className="px-5 " />
-        <Image src={img6} alt="" className="px-5 mt-20 z-10" />
-        {/* <Image src={img7} alt="" className="px-5 " />
-        <Image src={img8} alt="" className="px-5 mt-20 z-10" />
-        <Image src={img9} alt="" className="px-5 " />
-        <Image src={img10} alt="" className="px-5 mt-20 z-10" /> */}
+      <Marquee className="" autoFill={true} speed={150}>
+        <Image
+          priority={true}
+          src={img1}
+          alt=""
+          className="object-contain px-5 "
+          unoptimized
+        />
+        <Image
+          priority={true}
+          src={img2}
+          alt=""
+          className="object-contain px-5 mt-20 z-10"
+          unoptimized
+        />
+        <Image
+          priority={true}
+          src={img3}
+          alt=""
+          className="object-contain px-5 "
+          unoptimized
+        />
+        <Image
+          priority={true}
+          src={img4}
+          alt=""
+          className="object-contain px-5 mt-20 z-10"
+          unoptimized
+        />
+        <Image
+          priority={true}
+          src={img5}
+          alt=""
+          className="object-contain px-5 "
+          unoptimized
+        />
+        <Image
+          priority={true}
+          src={img6}
+          alt=""
+          className="object-contain px-5 mt-20 z-10"
+          unoptimized
+        />
       </Marquee>
     </section>
   );

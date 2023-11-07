@@ -30,8 +30,13 @@ export default function Seemless() {
           </div>
         </div>
       </div>
-      <figure className="w-full h-full">
-        <Image src={phone} alt="" className="object-contain h-full" />
+      <figure className="w-full h-full flex items-end">
+        <Image
+          src={phone}
+          alt=""
+          className="object-contain h-full bg-red-400"
+          unoptimized
+        />
       </figure>
     </div>
   );

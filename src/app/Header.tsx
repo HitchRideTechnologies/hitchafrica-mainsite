@@ -114,8 +114,11 @@ export default function Header() {
                   icon={<FaMugHot className="text-3xl opacity-[1] z-10" />}
                 />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
+                <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
                     Food
+                    <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
+                      Coming soon
+                    </span>
                   </b>
                   <p className="hidden md:block">
                     Order your favorite food from <br />
@@ -131,8 +134,11 @@ export default function Header() {
                   icon={<FaBriefcase className="text-3xl opacity-[1] z-10" />}
                 />
                 <nav className="flex flex-col gap-2">
-                  <b className="text-base md:text-lg font-[400] md:font-[600] min-w-fit">
-                    Professional Services
+                <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
+                    Professional service
+                    <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
+                      Coming soon
+                    </span>
                   </b>
                   <p className="hidden md:block">
                     Book a professional for any service <br /> you need
@@ -187,7 +193,7 @@ export default function Header() {
                 />
                 <nav className="flex flex-col gap-2">
                   <b className="text-base md:text-lg font-[400] md:font-[600] flex gap-1 items-center">
-                    Package Delivery{" "}
+                    Package delivery{" "}
                     <span className="text-xs bg-white text-primary rounded-sm h-fit min-w-fit w-fit px-2 py-1">
                       Coming soon
                     </span>
