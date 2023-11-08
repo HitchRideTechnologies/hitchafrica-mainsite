@@ -16,8 +16,8 @@ export default function Hero() {
         <div className="flex flex-col gap-10 pl-5 min-w-fit w-fit">
           <div className="flex flex-col gap-5">
             <h2 className="text-3xl md:text-[60px] font-[600] leading-normal grad">
-              Your everyday <br className="hidden md:block" /> super app{" "}
-              <br className="hidden md:block" /> for Africans
+              Your Everyday <br className="hidden md:block" /> Super App{" "}
+              <br className="hidden md:block" /> For Africans
             </h2>
             <p className="text-xl md:text-2xl">
               Connecting Journeys, Delivering Convenience:

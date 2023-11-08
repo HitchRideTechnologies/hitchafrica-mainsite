@@ -6,7 +6,7 @@ export default function Policies() {
           1. Acceptance of Terms
         </h4>
         <p>
-          By accessing or using [Your Company Name] services, you agree to
+          By accessing or using Hitch Africa services, you agree to
           comply with and be bound by these Terms and Conditions. If you do not
           agree with these terms, please refrain from using our services.
         </p>
@@ -38,7 +38,7 @@ export default function Policies() {
         </h4>
         <p>
           All content, logos, trademarks, and intellectual property on our
-          services are owned by [Your Company Name]. You agree not to reproduce,
+          services are owned by Hitch Africa. You agree not to reproduce,
           distribute, or create derivative works without our express consent.
         </p>
       </div>
@@ -68,7 +68,7 @@ export default function Policies() {
           7. Limitation of Liability
         </h4>
         <p>
-          To the fullest extent permitted by law, [Your Company Name] shall not
+          To the fullest extent permitted by law, Hitch Africa shall not
           be liable for any indirect, incidental, special, consequential, or
           punitive damages.
         </p>
@@ -79,7 +79,7 @@ export default function Policies() {
         </h4>
         <p>
           These Terms and Conditions are governed by and construed in accordance
-          with the laws of [Your Jurisdiction].
+          with the laws of Nigeria.
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -97,7 +97,7 @@ export default function Policies() {
         </h4>
         <p>
           If you have any questions or concerns about these Terms and
-          Conditions, please contact us at info@hitchafrica.com.
+          Conditions, please contact us at info@hitch.africa.
         </p>
       </div>
     </main>

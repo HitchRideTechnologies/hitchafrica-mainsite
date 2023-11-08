@@ -8,11 +8,10 @@ export default function How() {
     >
       <div className="flex flex-col items-center gap-5 mx-auto text-center">
         <h3 className="text-3xl md:text-[40px] text-purple font-[700]">
-          <span className="text-red">How the</span> App Works
+          <span className="text-red">How The</span> App Works
         </h3>
         <p className="text-lg md:text-2xl">
-          Download the application from google play store or the Apple store to
-          begin
+          Download on google play store and iOS store to get started.
         </p>
       </div>
       <section className="flex flex-col gap-10 md:gap-0 md:grid grid-cols-[1fr_2fr_1fr] grid-rows-1 justify-center items-center text-lg md:text-2xl bg-center bg-contain bg-no-repeat">
@@ -21,7 +20,7 @@ export default function How() {
             <span className="bg-[#F8F2FF] rounded h-[50px] md:h-[90px] w-[50px] md:w-[90px] flex justify-center items-center text-3xl md:text-[48px]">
               <span className="grad">1</span>
             </span>
-            <b className="font-[600] text-black text-2xl">Sign up as a User</b>
+            <b className="font-[600] text-black text-2xl">Sign up as a user</b>
             <p>
               Join HitchAfrica with a simple <br className="hidden md:block" />{" "}
               sign-up.
@@ -32,7 +31,7 @@ export default function How() {
               <span className="grad">3</span>
             </span>
             <b className="font-[600] text-black text-2xl">
-              Perform a Transaction
+              Perform a transaction
             </b>
             <p>
               Swiftly execute transactions <br className="hidden md:block" />
@@ -67,7 +66,7 @@ export default function How() {
               <span className="grad">3</span>
             </span>
             <b className="font-[600] text-black text-2xl">
-              Perform a Transaction
+              Perform a transaction
             </b>
             <p>
               Swiftly execute transactions <br />

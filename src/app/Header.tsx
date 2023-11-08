@@ -13,8 +13,6 @@ import {
   FaShoppingCart,
   FaCreditCard,
   FaShuttleVan,
-  FaCalendar,
-  FaClipboardCheck,
 } from "react-icons/fa";
 import logo from "@/assets/logo.png";
 import { usePathname } from "next/navigation";
@@ -68,7 +66,7 @@ export default function Header() {
         } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
       >
         <div
-          className="md:px-0 md:py-0 flex flex-col md:items-center w-full"
+          className="md:px-0 md:py-0 flex flex-col md:items-center w-full shadow-md"
           ref={dropdownRef1}
         >
           <button
@@ -207,7 +205,7 @@ export default function Header() {
           )}
         </div>
         <div
-          className="md:px-0 md:py-0 flex flex-col md:items-center w-full"
+          className="md:px-0 md:py-0 flex flex-col md:items-center w-full shadow-md"
           ref={dropdownRef2}
         >
           <button

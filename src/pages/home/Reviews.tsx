@@ -17,13 +17,14 @@ export default function Reviews() {
       <div className="flex flex-col gap-5 md:gap-10">
         <div className="flex flex-col items-start">
           <h3 className="text-3xl md:text-[48px] font-[700] leading-snug">
-            What people say <br className="hidden md:block" />{" "}
-            <span className="grad inline">about Us.</span>
+            What People Say <br className="hidden md:block" />{" "}
+            <span className="grad inline">About Us.</span>
           </h3>
         </div>
         <p className="text-lg md:text-2xl">
-          Our Clients send us bunch of smilies with our
-          <br className="hidden md:block" /> services and we love them.
+          Our Clients send us a bunch of smiles showing{" "}
+          <br className="hidden md:block" /> satisfaction with our services and
+          we love them.
         </p>
         <nav className="flex items-center gap-10">
           <button

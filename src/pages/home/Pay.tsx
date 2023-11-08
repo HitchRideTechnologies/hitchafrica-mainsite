@@ -1,7 +1,7 @@
 import pay from "@/assets/pay.png";
 import bg from "@/assets/paybg.png";
 import Image from "next/image";
-
+import Link from "next/link"
 export default function Pay() {
   return (
     <main className="flex flex-col">
@@ -21,14 +21,14 @@ export default function Pay() {
             </h3>
           </div>
           <p className="text-lg md:text-2xl">
-            From effortlessly sending and receiving funds to{" "}
-            <br className="hidden md:block" /> seamlessly managing your
-            transactions, our platform <br className="hidden md:block" />{" "}
-            ensures a user-centric experience at every step.
+            Our platform makes sure that every stage of the{" "}
+            <br className="hidden md:block" /> process is customer-focused, from
+            sending and receiving <br className="hidden md:block" /> money to
+            maintaining your transactions with ease.
           </p>
-          <button className="text-white bg-primary px-7 rounded-md min-w-fit w-fit h-12 font-[500]">
+          <Link href="/pay" className="text-white bg-primary px-7 rounded-md min-w-fit w-fit h-12 font-[500] flex justify-center items-center">
             Get Started
-          </button>
+          </Link>
         </div>
       </div>
     </main>

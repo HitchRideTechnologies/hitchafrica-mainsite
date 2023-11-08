@@ -6,7 +6,7 @@ export default function Policies() {
           1. Introduction
         </h4>
         <p>
-          Welcome to [Your Company Name] {`("we," "our," or "us")`}. We value
+          Welcome to Hitch Africa {`("we," "our," or "us")`}. We value
           your privacy and are committed to protecting your personal
           information. This Privacy Policy outlines how we collect, use,
           disclose, and safeguard your information when you interact with our
@@ -76,8 +76,7 @@ export default function Policies() {
           You have the right to access, correct, or delete your personal
           information. You may also opt out of receiving promotional
           communications from us. To exercise these rights or for any
-          privacy-related inquiries, please contact us at [contact email or
-          address].
+          privacy-related inquiries, please contact us at info@hitch.africa.
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -97,7 +96,7 @@ export default function Policies() {
         </h4>
         <p>
           If you have any questions or concerns about our Privacy Policy, please
-          contact us at [contact email or address].
+          contact us at info@hitch.africa.
         </p>
       </div>
     </main>

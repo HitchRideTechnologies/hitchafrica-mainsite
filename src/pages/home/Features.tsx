@@ -28,10 +28,9 @@ export default function Features() {
           <span className="inline"> Our Exciting</span> Features
         </h3>
         <p className="text-lg md:text-2xl">
-          Explore some amazing features of our super-app, where innovation meets
-          convenience to redefine your digital experience. Welcome to a world
-          where every feature is designed to make your journey smoother and more
-          enjoyable.
+          <b>Explore </b> some amazing features of our super-app. All perfectly
+          designed to help you navigate and meet your daily needs in a smooth
+          and more convenient way.
         </p>
       </div>
       <Marquee className="" autoFill={true} speed={150}>

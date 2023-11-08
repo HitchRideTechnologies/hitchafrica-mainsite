@@ -12,7 +12,7 @@ export default function Explore() {
         alt=""
         className="absolute object-cover object-bottom top-0 left-0 w-full h-full z-[-1]"
       />
-      <b className="text-2xl md:text-[50px] font-[600] md:mt-[10%]">
+      <b className="text-2xl md:text-[50px] font-[600] md:mt-[10%] leading-tight">
         Explore your favorite meal, from <br className="hidden md:block" /> your
         favorite restaurants
       </b>
