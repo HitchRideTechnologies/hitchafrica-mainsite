@@ -9,7 +9,12 @@ export default function How() {
       </h3>
       <div className="flex flex-col md:grid grid-cols-2 grid-rows-1 gap-14 items-center justify-center">
         <figure className="w-full h-full max-h-screen">
-          <Image src={how} alt="" className="w-full h-full object-cover" />
+          <Image
+            src={how}
+            alt=""
+            className="w-full h-full object-cover"
+            unoptimized
+          />
         </figure>
         <div className="flex gap-5 h-full">
           <span className="hidden md:flex flex-col w-4 h-full bg-[#E1E1E1] rounded-lg">

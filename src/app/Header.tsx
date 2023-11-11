@@ -66,11 +66,11 @@ export default function Header() {
         } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
       >
         <div
-          className="md:px-0 md:py-0 flex flex-col md:items-center w-full shadow-md"
+          className="md:px-0 md:py-0 flex flex-col md:items-center w-full snap"
           ref={dropdownRef1}
         >
           <button
-            className="flex gap-1 items-center py-4 md:py-0 border-b md:border-none hover:text-primary transition-colors ease-in-out duration-1000"
+            className="flex gap-1 items-center py-4 md:py-0 border-b md:border-b-0 hover:text-primary transition-colors ease-in-out duration-1000 bg-inherit"
             onMouseOver={() => setMenuDropDownOpen1(true)}
             onClick={() => setMenuDropDownOpen1(!isMenuDropDownOpen1)}
           >
@@ -83,7 +83,7 @@ export default function Header() {
           </button>
           {isMenuDropDownOpen1 && (
             <div
-              className={`overflow-y-scroll snap flex flex-col md:grid grid-cols-2 items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary ${
+              className={`overflow-y-scroll shadow-xl snap flex flex-col md:grid grid-cols-2 items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary ${
                 pathname?.includes("ride") && "bg-white md:bg-secondary"
               } ${pathname?.includes("food") && "bg-white md:bg-red"} ${
                 pathname?.includes("professional-service") &&
@@ -205,11 +205,11 @@ export default function Header() {
           )}
         </div>
         <div
-          className="md:px-0 md:py-0 flex flex-col md:items-center w-full shadow-md"
+          className="md:px-0 md:py-0 flex flex-col md:items-center w-full snap"
           ref={dropdownRef2}
         >
           <button
-            className="flex gap-1 items-center py-4 md:py-0 border-b md:border-none hover:text-primary transition-colors ease-in-out duration-1000"
+            className="flex gap-1 items-center py-4 md:py-0 border-b md:border-b-0 hover:text-primary transition-colors ease-in-out duration-1000 bg-inherit"
             onMouseOver={() => setMenuDropDownOpen2(true)}
             onClick={() => setMenuDropDownOpen2(!isMenuDropDownOpen2)}
           >
@@ -222,7 +222,7 @@ export default function Header() {
           </button>
           {isMenuDropDownOpen2 && (
             <div
-              className={`overflow-y-scroll snap flex flex-col  items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary `}
+              className={`overflow-y-scroll shadow-xl snap flex flex-col  items-start text-sm gap-2 md:gap-5 md:absolute md:rounded-xl mx-auto md:mt-5  md:text-white w-full md:w-[unset] p-4 md:p-8 bg-white md:bg-primary `}
             >
               <Link
                 href="/company"
