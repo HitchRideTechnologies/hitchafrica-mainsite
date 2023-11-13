@@ -18,8 +18,33 @@ export default function Start() {
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     if (state.first && state.last && state.phone && state.email && state.city) {
-      const formDetails = new FormData();
-      console.log("submited");
+      fetch("https://formsubmit.co/ajax/hello@hitch.africa", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: state.first + state.last,
+          email: state.email,
+          phone: state.phone,
+          city: state.city,
+        }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          setSent(true);
+          setState({
+            first: "",
+            last: "",
+            phone: "",
+            email: "",
+            city: "",
+            check: false,
+          });
+        })
+        .catch((error) => console.log(error));
     }
   };
   return (
