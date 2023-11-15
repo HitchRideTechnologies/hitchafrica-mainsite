@@ -20,7 +20,7 @@ export default function Team() {
       <div className="flex flex-col md:grid grid-cols-4 gap-10">
         <Single img={team1} name="Paul Obalonye" pos="CEO" />
         <Single img={team2} name="Emem Umoh" pos="Co-founder" />
-        <Single img={team3} name="Samuel Owadayo" pos="Developer" />
+        <Single img={team3} name="Joyce Temi" pos="Head of Products" />
         <Single img={team4} name="Faith Oyah" pos="Product Designer" />
       </div>
     </main>
