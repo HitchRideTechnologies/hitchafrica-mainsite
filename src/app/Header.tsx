@@ -301,14 +301,14 @@ export default function Header() {
           Business
         </Link>
         <Link
-          href="/get-started"
+          href="/contact-us"
           className="md:hidden rounded-xl px-6 h-12 flex justify-center items-center btnbg text-white w-full"
         >
           Contact Us
         </Link>
       </nav>
       <Link
-        href="/get-started"
+        href="/contact-us"
         className="rounded-xl hidden px-10 h-12 md:flex justify-center items-center btnbg text-white w-fit min-w-fit"
       >
         Contact Us
