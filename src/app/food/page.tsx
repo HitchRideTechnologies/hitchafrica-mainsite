@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Food | Hitch Africa",
     description: "Discover Hitch Food, our food delivery service. Learn how it works, explore our offerings, and find out how to become a partner.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/food",
     siteName: "Hitch.Africa",
     images: [
       {

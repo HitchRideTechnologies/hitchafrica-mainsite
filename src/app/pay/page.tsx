@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us | Hitch Africa",
     description: "Explore Hitch Pay, our innovative payment service designed to make transactions easy and secure. With Hitch Pay, you can send money, pay bills, and manage your finances with ease. Join us and become a partner in our mission to revolutionize payments in Africa.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/pay",
     siteName: "Hitch.Africa",
     images: [
       {

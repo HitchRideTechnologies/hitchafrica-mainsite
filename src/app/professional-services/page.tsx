@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Professional Services | Hitch Africa",
     description: "Discover our professional services. Learn how they work, explore our offerings, and find out how to become a partner.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/professional-services",
     siteName: "Hitch.Africa",
     images: [
       {

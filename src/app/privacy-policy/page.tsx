@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Privacy Policy | Hitch Africa",
     description: "Read our privacy policy to understand how we collect, use, protect, and handle your personal information.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/privacy-policy",
     siteName: "Hitch.Africa",
     images: [
       {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Product Images | Hitch Africa",
     description: "Explore high-quality images of our products and services.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/press/product-image",
     siteName: "Hitch.Africa",
     images: [
       {

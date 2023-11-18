@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Terms & Conditions | Hitch Africa",
     description: "Read our terms and conditions to understand the rules and guidelines that govern your use of our services.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/terms-and-conditions",
     siteName: "Hitch.Africa",
     images: [
       {

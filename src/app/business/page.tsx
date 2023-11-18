@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Business | Hitch Africa",
     description:
       "Explore business opportunities with Hitch. Join our network of service providers and merchants.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/business",
     siteName: "Hitch.Africa",
     images: [
       {

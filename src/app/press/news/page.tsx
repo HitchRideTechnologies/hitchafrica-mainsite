@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "News | Hitch Africa",
     description: "Stay updated with the latest news and press releases from Hitch Africa.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/press/news",
     siteName: "Hitch.Africa",
     images: [
       {

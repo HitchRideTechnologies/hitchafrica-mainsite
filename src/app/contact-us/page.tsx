@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us | Hitch Africa",
     description: "Get in touch with us. We are here to help you with any questions or concerns you may have.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/contact-us",
     siteName: "Hitch.Africa",
     images: [
       {

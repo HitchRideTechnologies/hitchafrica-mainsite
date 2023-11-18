@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ride | Hitch Africa",
     description: "Experience the future of transportation with Hitch Ride. Our service is designed to provide safe, comfortable, and affordable rides across Africa. Learn how it works, discover why people choose us, and find out how to become a driver partner.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/ride",
     siteName: "Hitch.Africa",
     images: [
       {

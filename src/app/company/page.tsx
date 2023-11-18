@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "About Us | Hitch Africa",
     description:
       "Learn more about Hitch, our mission, our story, and our team. Join us in our journey to provide everyday services for Africans.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/company",
     siteName: "Hitch.Africa",
     images: [
       {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us | Hitch Africa",
     description: "Explore our brand assets, including logos, images, and guidelines for their use.",
-    url: "https://hitch.africa",
+    url: "https://hitch.africa/press/brand-assets",
     siteName: "Hitch.Africa",
     images: [
       {
