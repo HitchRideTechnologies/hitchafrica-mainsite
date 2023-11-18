@@ -11,7 +11,7 @@ import Seamless from "@/pages/home/Seamless";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Hitch Africa",
+  title: "Home | Hitch Africa",
   description: "Hitch - Your everyday app for Africans",
   keywords:
     "ride-hailing, delivery services, service providers, merchants, Hitch Africa, on-demand services, transportation, professionals network, all-in-one, package delivery, pay, shopping mart",

@@ -19,6 +19,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/professional-services`, lastModified: new Date() },
     { url: `${baseUrl}/ride`, lastModified: new Date() },
     { url: `${baseUrl}/terms-and-conditions`, lastModified: new Date() },
-
   ];
 }
