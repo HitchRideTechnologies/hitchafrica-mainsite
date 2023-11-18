@@ -1,16 +1,11 @@
 import Header from "./Header";
 import "./globals.css";
-import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Footer from "./Footer";
 import whatsapp from "@/assets/whatsapp.png";
 import Image from "next/image";
 const mont = Montserrat({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Hitch Africa",
-  description: "Hitch - Your everyday app for Africans",
-};
 
 export default function RootLayout({
   children,

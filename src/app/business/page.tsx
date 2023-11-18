@@ -1,4 +1,3 @@
-import Head from "next/head";
 import One from "@/pages/business/One";
 import Two from "@/pages/business/Two";
 import Three from "@/pages/business/Three";
@@ -7,32 +6,56 @@ import Five from "@/pages/business/Five";
 import Six from "@/pages/business/Six";
 import Seamless from "@/pages/home/Seamless";
 
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Business | Hitch Africa",
+  description:
+    "Explore business opportunities with Hitch. Join our network of service providers and merchants.",
+  keywords:
+    "business, ride hailing, opportunities, service providers, merchants, Hitch Africa, Hitch Africa business, ride hailing, hitch pay, hitch food, hitch shopping mart, hitch service provider",
+  openGraph: {
+    title: "Business | Hitch Africa",
+    description:
+      "Explore business opportunities with Hitch. Join our network of service providers and merchants.",
+    url: "https://hitch.africa",
+    siteName: "Hitch.Africa",
+    images: [
+      {
+        url: "https://hitch.africa/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.52548336.png&w=256&q=75",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://hitch.africa/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.52548336.png&w=256&q=75",
+        width: 1800,
+        height: 1600,
+        alt: "icon",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  assets: ["https://hitch.africa/press/brand-assets"],
+};
+
 export default function Business() {
   return (
     <main className="flex flex-col justify-center z-[0] overflow-x-hidden snap relative bg-[#FFFFFE]">
-      <Head>
-        <title>Hitch Africa - Business</title>
-        <meta
-          name="description"
-          content="Explore business opportunities with Hitch. Join our network of service providers and merchants."
-        />
-        <meta
-          name="keywords"
-          content="business, opportunities, service providers, merchants, Hitch Africa"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Hitch.Africa - Business" />
-        <meta
-          property="og:description"
-          content="Explore business opportunities with Hitch. Join our network of service providers and merchants."
-        />
-        <meta
-          property="og:image"
-          content="https://hitch.africa/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.52548336.png&w=256&q=75"
-        />
-        <meta property="og:url" content="https://hitch.africa" />
-        <meta property="og:type" content="website" />
-      </Head>
       <One />
       <Two />
       <Three />
