@@ -16,9 +16,9 @@ import {
 } from "react-icons/fa";
 import logo from "@/assets/logo.png";
 import { usePathname } from "next/navigation";
-import exc from "@/assets/exc.png";
-import check from "@/assets/check.png";
-import clip from "@/assets/clip.png";
+import exc from "@/assets/exc.svg";
+import check from "@/assets/check.svg";
+import clip from "@/assets/clip.svg";
 
 export function useOnHoverOutside(ref: any, handler: any) {
   useEffect(() => {
