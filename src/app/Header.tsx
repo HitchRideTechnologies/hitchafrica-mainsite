@@ -16,9 +16,9 @@ import {
 } from "react-icons/fa";
 import logo from "@/assets/logo.png";
 import { usePathname } from "next/navigation";
-import exc from "@/assets/exc.png";
-import check from "@/assets/check.png";
-import clip from "@/assets/clip.png";
+import exc from "@/assets/exc.svg";
+import check from "@/assets/check.svg";
+import clip from "@/assets/clip.svg";
 
 export function useOnHoverOutside(ref: any, handler: any) {
   useEffect(() => {
@@ -301,14 +301,14 @@ export default function Header() {
           Business
         </Link>
         <Link
-          href="/get-started"
+          href="/contact-us"
           className="md:hidden rounded-xl px-6 h-12 flex justify-center items-center btnbg text-white w-full"
         >
           Contact Us
         </Link>
       </nav>
       <Link
-        href="/get-started"
+        href="/contact-us"
         className="rounded-xl hidden px-10 h-12 md:flex justify-center items-center btnbg text-white w-fit min-w-fit"
       >
         Contact Us

@@ -1,21 +1,18 @@
 import Head from 'next/head';
-import Hero from "@/pages/ride/Hero";
-import Why from "@/pages/ride/Why";
-import How from "@/pages/ride/How";
-import Become from "@/pages/ride/Become";
+import Start from "@/pages/get-started/Start";
 import Seamless from "@/pages/home/Seamless";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ride | Hitch Africa",
-  description: "Experience the future of transportation with Hitch Ride. Our service is designed to provide safe, comfortable, and affordable rides across Africa. Learn how it works, discover why people choose us, and find out how to become a driver partner.",
+  title: "Contact Us | Hitch Africa",
+  description: "Get in touch with us. We are here to help you with any questions or concerns you may have.",
   keywords:
-    "Hitch Ride, transportation, driver partner, Hitch Africa, Hitch Africa Rider, Hitch driver",
+    "contact us, support, Hitch Africa, contact Hitch Africa",
   openGraph: {
-    title: "Ride | Hitch Africa",
-    description: "Experience the future of transportation with Hitch Ride. Our service is designed to provide safe, comfortable, and affordable rides across Africa. Learn how it works, discover why people choose us, and find out how to become a driver partner.",
-    url: "https://hitch.africa/ride",
+    title: "Contact Us | Hitch Africa",
+    description: "Get in touch with us. We are here to help you with any questions or concerns you may have.",
+    url: "https://hitch.africa/contact-us",
     siteName: "Hitch.Africa",
     images: [
       {
@@ -49,14 +46,11 @@ export const metadata: Metadata = {
   assets: ["https://hitch.africa/press/brand-assets"],
 };
 
-export default function Ride() {
+export default function Home() {
   return (
     <main className="flex flex-col justify-center z-[0] overflow-x-hidden snap relative bg-[#FFFFFE]">
-      <Hero />
-      <Why />
-      <How />
-      <Become />
-      <Seamless />
+      <Start />
+      <Seamless /> 
     </main>
   );
 }

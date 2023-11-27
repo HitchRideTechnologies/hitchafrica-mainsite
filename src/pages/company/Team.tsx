@@ -1,5 +1,5 @@
 import team1 from "@/assets/team/team1.jpeg";
-import team2 from "@/assets/team/team.jpg";
+import team2 from "@/assets/team/team2.png";
 import team3 from "@/assets/team/team.jpg";
 import team4 from "@/assets/team/team.jpg";
 import Image, { StaticImageData } from "next/image";
