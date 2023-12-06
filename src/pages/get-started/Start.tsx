@@ -7,6 +7,7 @@ import appstore from "@/assets/appstore-w.png";
 import done from "@/assets/sent.png";
 export default function Start() {
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [state, setState] = useState({
     first: "",
     last: "",
@@ -17,6 +18,7 @@ export default function Start() {
   });
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
+    setLoading(true);
     if (state.first && state.last && state.phone && state.email && state.city) {
       fetch("https://formsubmit.co/ajax/hello@hitch.africa", {
         method: "POST",
@@ -167,13 +169,7 @@ export default function Start() {
               </label>
               <button
                 className="font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5"
-                onClick={
-                  state.check
-                    ? () => setSent(true)
-                    : () => {
-                        return;
-                      }
-                }
+                disabled={state?.check ? false : true || loading}
               >
                 Sign up
               </button>
