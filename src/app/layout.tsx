@@ -18,14 +18,14 @@ export default function RootLayout({
         <Header />
         {children}
         <a
-          href="https://api.whatsapp.com/send?phone=2347055554168"
+          href="https://api.whatsapp.com/send?phone=4407713030"
           target="_blank"
           rel="noreferrer"
         >
           <Image
             src={whatsapp}
             alt=""
-            className="fixed bottom-5 h-14 w-14 md:h-20 md:w-20 right-3 md:right-10 z-[9999]"
+            className="fixed bottom-5 h-12 w-12 md:h-16 md:w-16 right-3 md:right-10 z-[9999]"
           />
         </a>
         <Footer />
