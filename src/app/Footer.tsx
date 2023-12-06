@@ -60,7 +60,7 @@ export default function Footer() {
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Contact Us</b>
             <p>Address: 675 Alpha Dr Suite G, Highland Heights, OH 44143, USA</p>
-            <p>Phone Number: +440-771-3030</p>
+            <p>Phone Number: +1440-771-3030</p>
             <p>Contact Email: hello@hitch.africa</p>
             <nav className="flex gap-5">
               <a href="" target="_blank" rel="noopener noreferrer">

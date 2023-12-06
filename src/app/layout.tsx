@@ -18,7 +18,7 @@ export default function RootLayout({
         <Header />
         {children}
         <a
-          href="https://api.whatsapp.com/send?phone=4407713030"
+          href="https://api.whatsapp.com/send?phone=14407713030"
           target="_blank"
           rel="noreferrer"
         >
