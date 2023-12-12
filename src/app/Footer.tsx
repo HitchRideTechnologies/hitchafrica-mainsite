@@ -63,16 +63,16 @@ export default function Footer() {
             <p>Phone Number: +1440-771-3030</p>
             <p>Contact Email: hello@hitch.africa</p>
             <nav className="flex gap-5">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/hitchride-technologies-ltd/" target="_blank" rel="noopener noreferrer">
                 <Image src={soc1} alt="" className="h-10 w-10" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/hitch.africa" target="_blank" rel="noopener noreferrer">
                 <Image src={soc2} alt="" className="h-10 w-10" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/hitchafrica_" target="_blank" rel="noopener noreferrer">
                 <Image src={soc3} alt="" className="h-10 w-10" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://web.facebook.com/HitchAfrica/" target="_blank" rel="noopener noreferrer">
                 <Image src={soc4} alt="" className="h-10 w-10" />
               </a>
             </nav>
