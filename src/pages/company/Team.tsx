@@ -1,7 +1,7 @@
 import team1 from "@/assets/team/team1.jpeg";
 import team2 from "@/assets/team/team2.png";
-import team3 from "@/assets/team/team3.png";
-import team4 from "@/assets/team/team4.png";
+import team3 from "@/assets/team/team3.jpeg";
+import team4 from "@/assets/team/team4.jpeg";
 import Image, { StaticImageData } from "next/image";
 
 export default function Team() {
