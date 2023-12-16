@@ -37,6 +37,7 @@ export default function Start() {
         .then((data) => {
           console.log(data);
           setSent(true);
+          setLoading(false)
           setState({
             first: "",
             last: "",
@@ -168,7 +169,7 @@ export default function Start() {
                 </span>
               </label>
               <button
-                className="font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5"
+                                className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${loading ? "opacity-80 animate-pulse" : ""}`}
                 disabled={state?.check ? false : true || loading}
               >
                 Sign up

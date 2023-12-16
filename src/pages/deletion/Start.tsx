@@ -16,7 +16,7 @@ export default function Start() {
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setLoading(true);
-    if (state.first && state.last && state.phone && state.email && state.city) {
+    if (state.reason && state.phone && state.email) {
       fetch("https://formsubmit.co/ajax/hello@hitch.africa", {
         method: "POST",
         headers: {
@@ -54,7 +54,6 @@ export default function Start() {
             <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-purple">
               Sad To See You{" "}
               <b className="text-red font-[600] inline mr-3">Leave</b>
-              
             </h2>
             <form
               className="w-full flex flex-col gap-7"
