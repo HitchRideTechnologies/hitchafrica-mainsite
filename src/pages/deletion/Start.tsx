@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import start from "@/assets/start.png";
+import start from "@/assets/sad.jpeg";
 import playstore from "@/assets/playstore-w.png";
 import appstore from "@/assets/appstore-w.png";
-import done from "@/assets/sent.png";
+import done from "@/assets/delete.jpeg";
 export default function Start() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -33,7 +33,7 @@ export default function Start() {
         .then((data) => {
           console.log(data);
           setSent(true);
-          setLoading(false)
+          setLoading(false);
           setState({
             phone: "",
             email: "",
@@ -94,7 +94,9 @@ export default function Start() {
                 />
               </label>
               <label className="flex flex-col gap-3 w-full">
-                <span className="flex items-center gap-1 font-[600]">Reason For Deletion</span>
+                <span className="flex items-center gap-1 font-[600]">
+                  Reason For Deletion
+                </span>
                 <textarea
                   placeholder="Please let us know why you ae leaving us"
                   className="h-40 px-3 py-4 border z-10 w-full outline-none rounded-lg md:rounded-xl"
@@ -106,10 +108,11 @@ export default function Start() {
                     }))
                   }
                 />
-                
               </label>
               <button
-                className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${loading ? "opacity-80 animate-pulse" : ""}`}
+                className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${
+                  loading ? "opacity-80 animate-pulse" : ""
+                }`}
                 disabled={loading}
               >
                 Submit
@@ -120,7 +123,7 @@ export default function Start() {
       )}
       {sent && (
         <main className="min-h-screen bg-[#FFF3F6] px-5 py-10 md:py-20 flex justify-center  items-center flex-col gap-8 text-center">
-          <Image src={done} alt="" className="" />
+          <Image src={done} alt="" className="max-h-[50vh] object-contain rounded-[50%]" />
           <h3 className="text-purple text-[35px] md:text-[64px] font-[600]">
             Your Account Deletion Is Being Processed
           </h3>
@@ -130,7 +133,8 @@ export default function Start() {
             </h4>
             <p className="text-2xl">
               You have successfully activated account deletion process
-              <br className="hidden md:block" /> We are looking forward to getting you back and serving you better
+              <br className="hidden md:block" /> We are looking forward to
+              getting you back and serving you better
             </p>
             <div className="flex flex-col md:flex-row items-center  justify-center gap-5 text-lg mx-auto md:mx-0">
               <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
