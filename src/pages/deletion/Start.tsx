@@ -112,7 +112,7 @@ export default function Start() {
                 className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${loading ? "opacity-80 animate-pulse" : ""}`}
                 disabled={loading}
               >
-                Sign up
+                Submit
               </button>
             </form>
           </div>
