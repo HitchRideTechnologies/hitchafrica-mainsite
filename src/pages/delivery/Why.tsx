@@ -44,7 +44,7 @@ type FeatProps = {
 
 const Feat = ({ icon, title, text }: FeatProps) => {
   return (
-    <nav className="w-full flex flex-col gap-5 bg-white rounded-2xl p-6qs feat">
+    <nav className="w-full flex flex-col gap-5 bg-white rounded-2xl p-6 feat">
       <Image src={icon} alt="" className="h-8 w-8 md:h-12 md:w-12" />
       <b className="font-[500] text-2xl md:text-[28px]">{title}</b>
       <p className="text-xl md:text-2xl">{text}</p>

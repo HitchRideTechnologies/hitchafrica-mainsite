@@ -1,5 +1,5 @@
 import Image from "next/image";
-import how from "@/assets/how-ride.png";
+import how from "@/assets/how-delivery.png";
 
 export default function How() {
   return (
