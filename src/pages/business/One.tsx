@@ -19,7 +19,7 @@ export default function One() {
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
-            Become a Driver
+            Become a Driver Partner
           </Link>
         </div>
         <figure>

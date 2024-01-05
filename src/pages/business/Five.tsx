@@ -8,21 +8,18 @@ export default function Five() {
       <div className="flex flex-col-reverse md:flex-row gap-14 md:gap-24 items-center justify-center">
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-pitch">
-            <b className="text-red font-[600] block">List Your Groceries:</b>
-            Sell Fresh,
-            <br className="hidden md:block" /> Thrive More
+            <b className="text-red font-[600] block">Tools for success</b>
           </h2>
           <p className="text-lg md:text-2xl md:font-[500]">
-            You not only sell high-quality, farm-fresh products{" "}
-            <br className="hidden md:block" /> but also open doors to a thriving
-            marketplace where <br className="hidden md:block" /> your offerings
-            stand out.
+            Exclusive business insights to help you
+            <br className="hidden md:block" />
+            drive sustainable growth.
           </p>
           <Link
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center redGrad text-white w-fit min-w-fit"
           >
-            Become a Vendor
+            Become a Vendor Partner
           </Link>
         </div>
         <figure>

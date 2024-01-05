@@ -11,19 +11,19 @@ export default function Release() {
         </h3>
         <div className="flex flex-col gap-7 md:gap-10 md:grid grid-cols-3">
           <Single
-            title="Hitch secures 1,000 vendors "
+            title="Hitch Africa secures 1,000 vendors "
             date="December 13, 2023"
             icon={news1}
             outlet="Vanguard"
           />
           <Single
-            title="Hitch secures 1,000 vendors "
+            title="Hitch Africa secures 1,000 vendors "
             date="December 13, 2023"
             icon={news1}
             outlet="Vanguard"
           />
           <Single
-            title="Hitch secures 1,000 vendors "
+            title="Hitch Africa secures 1,000 vendors "
             date="December 13, 2023"
             icon={news1}
             outlet="Vanguard"
@@ -39,19 +39,19 @@ export default function Release() {
         </h3>
         <div className="flex flex-col gap-7 md:gap-10 md:grid grid-cols-3">
           <Single
-            title="Hitch secures 1,000 vendors "
+            title="Hitch Africa secures 1,000 vendors "
             date="December 13, 2023"
             icon={news1}
             outlet="Vanguard"
           />
           <Single
-            title="Hitch secures 1,000 vendors "
+            title="Hitch Africa secures 1,000 vendors "
             date="December 13, 2023"
             icon={news1}
             outlet="Vanguard"
           />
           <Single
-            title="Hitch secures 1,000 vendors "
+            title="Hitch Africa secures 1,000 vendors "
             date="December 13, 2023"
             icon={news1}
             outlet="Vanguard"

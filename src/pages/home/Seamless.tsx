@@ -3,13 +3,13 @@ import playstore from "@/assets/playstore-c.png";
 import appstore from "@/assets/appstore-c.png";
 import phone from "@/assets/phone.png";
 
-export default function Seemless() {
+export default function Seamless() {
   return (
     <div className="bg-primary rounded-3xl mx-5 md:mx-20 md:h-[85vh] pt-14 md:pt-0 px-5 md:px-20 my-10 md:my-20 flex flex-col md:grid grid-cols-[1.5fr_2fr] grid-rows-1 gap-10 items-center">
       <div className="flex flex-col gap-7 md:gap-20 text-white">
         <h3 className="text-3xl md:text-[36px] font-[700] leading-normal">
-          We Offer Seamless Services for Your Every Day Need: Hitch, Deliver,
-          Excel.
+          We Offer Seamless On-Demand Services for Your Everyday Need:
+          e-hailing, Food, Grocery, Delivery & Payments
         </h3>
         <div className="flex flex-col gap-4">
           <p>Available on</p>

@@ -8,7 +8,7 @@ export default function Become() {
       <div className="flex flex-col md:flex-row gap-14 md:gap-24 items-center justify-center">
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-purple">
-            <b className="grad2 font-[600] block">Deliver with Hitch: </b>
+            <b className="grad2 font-[600] block">Deliver with Hitch Africa: </b>
             Earn On Your <br className="hidden md:block" /> Own Time
           </h2>
           <p className="text-lg md:text-2xl md:font-[500]">

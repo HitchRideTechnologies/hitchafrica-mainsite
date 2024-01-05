@@ -50,7 +50,7 @@ export default function Hero() {
                 <FaStar />
                 <FaStar />
               </span>
-              <p>Over 10k Users all Over Africa</p>
+              <p>Over 2k Users all Over Africa</p>
             </nav>
           </div>
         </div>

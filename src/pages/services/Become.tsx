@@ -13,7 +13,7 @@ export default function Become() {
             <br className="hidden md:block" /> Here
           </h2>
           <p className="text-lg md:text-2xl md:font-[500]">
-            Here at Hitch, we provide a dynamic{" "}
+            Here at Hitch Africa, we provide a dynamic{" "}
             <br className="hidden md:block" /> environment where expertise
             flourishes, <br className="hidden md:block" /> offering you a unique
             space to showcase <br className="hidden md:block" /> your skills and
@@ -23,7 +23,7 @@ export default function Become() {
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
-            Become a Merchant
+            Become a Merchant Partner
           </Link>
         </div>
         <figure>

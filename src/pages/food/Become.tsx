@@ -8,7 +8,7 @@ export default function Become() {
       <div className="flex flex-col-reverse md:flex-row gap-14 md:gap-24 items-center justify-center">
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-red">
-            <b className="text-purple font-[600] md:block">Join Hitch:</b>{" "}
+            <b className="text-purple font-[600] md:block">Join Hitch Africa:</b>{" "}
             Savor the Taste{" "}
             <br className="hidden md:block" />
             of Greatness
@@ -23,7 +23,7 @@ export default function Become() {
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center redGrad text-white w-fit min-w-fit"
           >
-            Become a Merchant
+            Become a Merchant Partner
           </Link>
         </div>
         <figure>

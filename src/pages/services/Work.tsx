@@ -42,7 +42,7 @@ export default function Work() {
             without breaking the <br className="hidden md:block" /> bank
           </b>
           <p className="text-lg md:text-2xl md:font-[500]">
-            Hitch makes it affordable to up your work{" "}
+            Hitch Africa makes it affordable to up your work{" "}
             <br className="hidden md:block" /> and take advantage of low
             transaction <br className="hidden md:block" /> rates.
           </p>

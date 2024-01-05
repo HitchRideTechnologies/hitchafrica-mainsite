@@ -14,7 +14,7 @@ export default function Hero() {
               fast
             </h2>
             <p className="text-xl md:text-2xl">
-              The Hitch Food app makes it simple for anybody to{" "}
+              The Hitch Africa food app makes it simple for anybody to{" "}
               <br className="hidden md:block" /> use a mobile device to look
               over the menu of the <br className="hidden md:block" /> best
               vendors and place an order for home delivery.

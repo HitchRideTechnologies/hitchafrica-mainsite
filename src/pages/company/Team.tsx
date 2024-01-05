@@ -10,12 +10,12 @@ export default function Team() {
       <div className="flex flex-col md:flex-row gap-5 md:gap-20 w-full">
         <h3 className="min-w-fit text-center text-3xl md:text-[40px] text-red font-[600]">
           <span className="text-purple inline"> The Amazing </span> People
-          Behind Hitch
+          Behind Hitch Africa
         </h3>
-        <p className="text-lg md:text-2xl">
+        {/* <p className="text-lg md:text-2xl">
           From Product Managers to Designers, Our team is formed around a common
           goal to bring the best and brightest to do something truly remarkable.
-        </p>
+        </p> */}
       </div>
       <div className="flex flex-col md:grid grid-cols-4 gap-10">
         <Single img={team1} name="Paul Obalonye" pos="CEO" />

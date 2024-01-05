@@ -1,6 +1,6 @@
 import bg from "@/assets/talebg.png";
-import Image from "next/image"
-import tale from "@/assets/company7.png"
+import Image from "next/image";
+import tale from "@/assets/company7.png";
 
 export default function Tale() {
   return (
@@ -9,16 +9,20 @@ export default function Tale() {
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className="flex flex-col gap-4 md:gap-8 text-center justify-center items-center">
-
-<h1 className="text-center text-3xl md:text-[72px] font-[600]">The Tale of Us</h1>
-<p className="text-lg md:text-3xl font-[400]">It all began with a vision to change the game.</p>
-  </div>
-  {/* <video controls poster="../../assets/company7.png" className="w-full object-cover">
+        <h1 className="text-center text-3xl md:text-[72px] font-[600]">
+          The Tale of Us
+        </h1>
+        <p className="text-lg md:text-3xl font-[400]">
+          It all began with a vision to give access to quality lifestyle for
+          africans
+        </p>
+      </div>
+      {/* <video controls poster="../../assets/company7.png" className="w-full object-cover">
     <source src={taleVideo} type="video/mp4" /> 
   </video> */}
-  <figure className="w-full">
-    <Image src={tale} alt="" className="w-full object-cover" /> 
-    </figure>
+      <figure className="w-full">
+        <Image src={tale} alt="" className="w-full object-cover" />
+      </figure>
     </main>
   );
 }

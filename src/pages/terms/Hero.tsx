@@ -7,7 +7,7 @@ export default function Hero() {
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <h1 className="text-[35px] md:text-[72px] leading-normal font-[600]">Terms and Conditions</h1>
-      <p className="text-lg md:text-2xl">Last Updated 09 October 2023</p>
+      <p className="text-lg md:text-2xl">Last Updated January 2024</p>
     </main>
   );
 }

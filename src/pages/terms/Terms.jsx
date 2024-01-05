@@ -97,7 +97,7 @@ export default function Policies() {
         </h4>
         <p>
           If you have any questions or concerns about these Terms and
-          Conditions, please contact us at info@hitch.africa.
+          Conditions, please contact us at hello@hitch.africa.
         </p>
       </div>
     </main>

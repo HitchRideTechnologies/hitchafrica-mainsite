@@ -11,21 +11,18 @@ export default function Four() {
         </figure>
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-purple">
-            <b className="text-green font-[600] block">Sell with Hitch:</b>
-            Turn Listings{" "}
-            <br className="hidden md:block" />
-            Into Sales
+            <b className="text-green font-[600] block">Access to funds</b>
           </h2>
           <p className="text-lg md:text-2xl md:font-[500]">
-            Unlock a world of selling possibilities with Hitch,{" "}
-            <br className="hidden md:block" /> where your listings take center
-            stage in a dynamic <br className="hidden md:block" /> marketplace.
+            Apply for finance products to help better
+            <br className="hidden md:block" />
+            manage your cash flow.
           </p>
           <Link
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center greenGrad text-white w-fit min-w-fit"
           >
-            Become a Merchant
+            Become a Merchant Partner
           </Link>
         </div>
       </div>

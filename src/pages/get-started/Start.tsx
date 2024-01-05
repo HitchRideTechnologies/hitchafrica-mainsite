@@ -186,10 +186,10 @@ export default function Start() {
           </h3>
           <div className="flex flex-col gap-5">
             <h4 className="text-red text-2xl md:text-[34px] font-[600]">
-              Welcome to the Hitch Family
+              Welcome to the Hitch Africa Family
             </h4>
             <p className="text-2xl">
-              You have successfully signed up to the hitch platform.{" "}
+              You have successfully signed up to the hitch Africa platform.{" "}
               <br className="hidden md:block" /> Please download the application
               to continue.
             </p>

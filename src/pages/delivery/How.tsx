@@ -22,8 +22,8 @@ export default function How() {
           </span>
           <div className="flex flex-col gap-5 md:gap-12 justify-between">
             <nav className="flex flex-col gap-2 px-5 py-4 hw md:text-lg">
-              <b className="text-xl">1. Open the Hitch app.</b>
-              <p>Choose the package delivery on the Hitch Africa app dashboard</p>
+              <b className="text-xl">1. Open the Hitch Africa app.</b>
+              <p>Choose the package delivery on the Hitch Africa app</p>
             </nav>
             <nav className="flex flex-col gap-2 px-5 py-4 hw md:text-lg">
               <b className="text-xl">2․ Type in your destination</b>
