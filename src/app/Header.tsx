@@ -55,7 +55,7 @@ export default function Header() {
     <header className="sticky bg-white top-0 left-0 z-[999999] shadow-md px-3 md:px-20 py-2 md:py-4 flex justify-between items-center">
       <div className="relative flex items-center">
         <a href="/">
-          <Image src={logo} alt="" className="mr-auto object-contain" />
+          <Image src={logo} alt="" className="mr-auto h-16 w-24 object-contain" />
         </a>
       </div>
       <nav
@@ -144,7 +144,7 @@ export default function Header() {
                 </nav>
               </Link>
               <Link
-                href="/"
+                href="/shopping-mart"
                 className="flex md:grid grid-cols-[75px_auto] grid-rows-1 gap-4"
               >
                 <Icon

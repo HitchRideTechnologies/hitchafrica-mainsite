@@ -16,7 +16,8 @@ export default function Hero() {
               <br className="hidden md:block" /> Secure Way
             </h2>
             <p className="text-xl md:text-2xl">
-            Seamlessly Handle Your Financial Transactions <br className="hidden md:block" /> with Confidence and Security
+              Seamlessly Handle Your Financial Transactions{" "}
+              <br className="hidden md:block" /> with Confidence and Security
             </p>
             <div className="flex flex-col md:flex-row gap-5 text-lg mx-auto md:mx-0">
               <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
