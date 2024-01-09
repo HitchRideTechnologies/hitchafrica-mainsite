@@ -37,7 +37,7 @@ export default function Start() {
         .then((data) => {
           console.log(data);
           setSent(true);
-          setLoading(false)
+          setLoading(false);
           setState({
             first: "",
             last: "",
@@ -169,10 +169,12 @@ export default function Start() {
                 </span>
               </label>
               <button
-                                className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${loading ? "opacity-80 animate-pulse" : ""}`}
+                className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${
+                  loading ? "opacity-80 animate-pulse" : ""
+                }`}
                 disabled={state?.check ? false : true || loading}
               >
-                Sign up
+                Submit
               </button>
             </form>
           </div>
@@ -182,16 +184,15 @@ export default function Start() {
         <main className="min-h-screen bg-[#FFF3F6] px-5 py-10 md:py-20 flex justify-center  items-center flex-col gap-8 text-center">
           <Image src={done} alt="" className="" />
           <h3 className="text-purple text-[35px] md:text-[64px] font-[600]">
-            Congratulations
+            Thanks For Joining Us
           </h3>
           <div className="flex flex-col gap-5">
             <h4 className="text-red text-2xl md:text-[34px] font-[600]">
               Welcome to the Hitch Africa Family
             </h4>
             <p className="text-2xl">
-              You have successfully signed up to the hitch Africa platform.{" "}
-              <br className="hidden md:block" /> Please download the application
-              to continue.
+              We will get back to you shortly. <br /> In the meantime, you can
+              download our app.
             </p>
             <div className="flex flex-col md:flex-row items-center  justify-center gap-5 text-lg mx-auto md:mx-0">
               <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">

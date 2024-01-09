@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Support</b>
             <a
-              href="https://api.whatsapp.com/send?phone=2347055554168"
+              href="mailto:hello@hitch.africa"
               target="_blank"
               rel="noreferrer"
             >

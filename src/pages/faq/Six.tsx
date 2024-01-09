@@ -6,32 +6,38 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const List = [
   {
-    question: "How can I become a driver partner with HitchAfrica?",
+    question: "How is my personal information protected on HitchAfrica?",
     answer:
-      "Visit our website or app, navigate to the 'Become a Driver' section, and follow the instructions to sign up and join our network of driver partners.",
+      "We prioritize user privacy. Your data is encrypted, and we adhere to strict security protocols to safeguard your personal information.",
   },
   {
-    question: "What are the requirements to become a driver partner?",
+    question: "What measures are in place to ensure the safety of ride-sharing services?",
     answer:
-      "Requirements may vary by location. Generally, you need a valid driver's license, a registered vehicle, and must meet certain age and insurance criteria.",
+      "We conduct thorough background checks on driver partners and have safety features in the app, including real-time tracking and an emergency assistance button.",
   },
   {
-    question: "How does the driver rating system work?",
+    question: "Is my payment information secure when using HitchAfrica?",
     answer:
-      "Riders can rate drivers after each trip. Consistently high ratings lead to more trip opportunities. Safety and professionalism are key factors in driver ratings.",
+      "Absolutely. Our payment system uses industry-standard encryption to secure your financial information, ensuring a safe and reliable transaction experience.",
   },
   {
-    question: "How do driver incentives work on HitchAfrica?",
+    question: "How are disputes resolved on HitchAfrica?",
     answer:
-      "HitchAfrica offers various incentives and bonuses to driver partners based on factors like trip completion, high ratings, and peak-hour participation.",
+      "Disputes are handled through our customer support team. Users can report issues, and our team will investigate and resolve them according to our policies.",
   },
   {
-    question: "What safety features are in place for driver partners?",
+    question: "What measures are in place to prevent fraud on HitchAfrica?",
     answer:
-      "Driver partners have access to an in-app emergency button, and all trips are tracked in real-time. Additionally, there are safety guidelines and protocols in place.",
+      "We employ advanced fraud detection and prevention tools to safeguard against fraudulent activities and unauthorized access.",
+  },
+  {
+    question: "How often is user data updated, and is it shared with third parties?",
+    answer:
+      "User data is regularly updated as needed, and we prioritize privacy. User information is not shared with third parties without explicit consent. Refer to our privacy policy for more details.",
   },
 ];
-export default function Two() {
+
+export default function Six() {
     const [activeIndices, setActiveIndices] = useState(new Set());
   const handleButtonClick = (index: number) => {
     setActiveIndices((prevIndices) => {
@@ -47,7 +53,7 @@ export default function Two() {
 
   return (
     <main className="px-5 md:px-20 py-10 md:py-14 flex flex-col gap-10">
-        <h3 className="text-2xl md:text-[40px] font-[500] text-red">Driver Partners</h3>
+        <h3 className="text-2xl md:text-[40px] font-[500] text-red">Security FAQ</h3>
         <div className="w-full flex flex-col gap-5">
           {List.map((info, index) => (
             <nav

@@ -7,6 +7,7 @@ import Three from "@/pages/faq/Three";
 import Four from "@/pages/faq/Four";
 import Five from "@/pages/faq/Five";
 import Ask from "@/pages/faq/Ask";
+import Six from '@/pages/faq/Six';
 
 import { Metadata } from "next";
 
@@ -61,6 +62,7 @@ export default function FAQ() {
       <Three />
       <Four />
       <Five />
+      <Six />
       <Ask /> 
       <Seamless />
     </main>
