@@ -15,12 +15,12 @@ export default function One() {
             Our platform empowers you to drive and earn on <br className="hidden md:block" /> your own schedule,
             giving you the flexibility and <br className="hidden md:block" /> control you deserve.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/7h7bx5"
             className="rounded-md px-12 h-12 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Become a Driver Partner
-          </Link>
+          </a>
         </div>
         <figure>
           <Image src={become} alt="" />

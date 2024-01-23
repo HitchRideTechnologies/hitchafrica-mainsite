@@ -14,20 +14,20 @@ export default function Seamless() {
         <div className="flex flex-col gap-4">
           <p>Available on</p>
           <div className="flex flex-row gap-5">
-            <button className="bg-white flex flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit">
+            <a href="https://onelink.to/8ts9xt" className="bg-white flex flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit">
               <small className="text-xs text-[#101010]">Download on</small>
               <span className="flex items-center gap-2 text-[#101010] text-sm md:text-base font-[600]">
                 <Image src={playstore} alt="" className="" />
                 Play Store
               </span>
-            </button>
-            <button className="bg-white flex flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit">
+            </a>
+            <a href="https://onelink.to/8ts9xt" className="bg-white flex flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit">
               <small className="text-xs text-[#101010]">Download on</small>
               <span className="flex items-center gap-2 text-[#101010] text-sm md:text-base font-[600]">
                 <Image src={appstore} alt="" className="" />
                 App Store
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

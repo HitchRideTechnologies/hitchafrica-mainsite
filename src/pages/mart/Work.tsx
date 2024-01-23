@@ -27,12 +27,12 @@ export default function Work() {
             <br className="hidden md:block" />
             entire process has been streamlined.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-8 md:gap-20 items-center justify-center">
@@ -49,12 +49,12 @@ export default function Work() {
             <br className="hidden md:block" /> trusted vendors all over Nigeria.
             Our <br className="hidden md:block" /> vendors are top-rated.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
         <figure>
           <Image src={service2} alt="" className="" />
