@@ -26,7 +26,7 @@ export default function Work() {
             the right money moves.
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 md:mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started
@@ -53,7 +53,7 @@ export default function Work() {
             <br className="hidden md:block" /> trouble-free payments.
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started

@@ -34,13 +34,13 @@ export default function Explore() {
         </Link>
       </form>
       <div className="flex flex-col md:flex-row gap-5 md:text-lg mx-auto">
-        <a href="https://onelink.to/8ts9xt" className="bg-white text-[#1E1E1E] flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+        <a href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD" className="bg-white text-[#1E1E1E] flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
           <Image src={playstore} alt="" className="h5" />
           <span className="text-start flex flex-col gap-1">
             <small className="text-xs">Download on</small> Google Play
           </span>
         </a>
-        <a href="https://onelink.to/8ts9xt" className="bg-white text-[#1E1E1E] flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+        <a href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD" className="bg-white text-[#1E1E1E] flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
           <Image src={appstore} alt="" className="h-" />
           <span className="text-start flex flex-col gap-1">
             <small className="text-xs">Download on</small> Apple Store

@@ -20,11 +20,11 @@ export default function Footer() {
           <div className="flex flex-col gap-5 md:p-5">
             <p>Available on</p>
             <nav className="flex flex-row gap-5 md:gap-10">
-              <a href="https://onelink.to/8ts9xt"  className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
+              <a href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"  className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
                 <Image src={playstore} alt="" className="h-full" />
                 Android
               </a>
-              <a href="https://onelink.to/8ts9xt"  className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
+              <a href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"  className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
                 <Image src={appstore} alt="" className="h-full" />
                 IOS
               </a>

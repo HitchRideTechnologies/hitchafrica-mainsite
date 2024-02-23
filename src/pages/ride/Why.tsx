@@ -20,7 +20,7 @@ export default function Why() {
             in-app <br className="hidden md:block" /> chatting, and to finally meeting your <br className="hidden md:block" /> driver.
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Get Started
@@ -37,7 +37,7 @@ export default function Why() {
             driver-partners.<br className="hidden md:block" /> Whenever, wherever, go ahead and <br className="hidden md:block" /> order.
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Get Started

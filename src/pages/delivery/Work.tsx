@@ -21,7 +21,7 @@ export default function Work() {
           The process made easy from beginning <br className="hidden md:block" /> to end. From ordering a ride, in-app <br className="hidden md:block" /> chatting, and to finally meeting your <br className="hidden md:block" /> driver. 
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started

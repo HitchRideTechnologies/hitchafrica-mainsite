@@ -27,7 +27,7 @@ export default function Work() {
             waiting to be discovered.
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center redGrad text-white w-fit min-w-fit"
           >
             Get Started
@@ -46,7 +46,7 @@ export default function Work() {
             {`it's`} cash or <br className="hidden md:block" /> hitchpay
           </p>
           <a
-            href="https://onelink.to/8ts9xt"
+            href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center redGrad text-white w-fit min-w-fit"
           >
             Get Started
