@@ -11,20 +11,21 @@ export default function Two() {
         </figure>
         <div className="flex flex-col gap-5 md:gap-10 md:w-fit md:min-w-fit">
           <h2 className="text-3xl md:text-[60px] font-[600] leading-tight text-red">
-            <b className="text-purple font-[600] block">Join Hitch:</b>
-            Savor the Taste <br className="hidden md:block" />
-            of Greatness
+            <b className="text-purple font-[600] block">Grow your business</b>
+            with Hitch Africa
           </h2>
           <p className="text-lg md:text-2xl md:font-[500]">
-            Amplify your business reach, attract more customers,{" "}
-            <br className="hidden md:block" /> and savor the success of a
-            thriving partnership.
+            Reach millions of consumers on Grab, while offering
+            <br className="hidden md:block" />
+            greater convenience and rewards to your existing
+            <br className="hidden md:block" /> customers Download the
+            Merchant-Partner App.
           </p>
           <Link
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center bg-primary text-white w-fit min-w-fit"
           >
-            Become a Merchant
+            Become a Merchant Partner
           </Link>
         </div>
       </div>

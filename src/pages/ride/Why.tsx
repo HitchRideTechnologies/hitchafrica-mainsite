@@ -19,12 +19,12 @@ export default function Why() {
             The process made easy from beginning <br className="hidden md:block" /> to end. From ordering a ride,
             in-app <br className="hidden md:block" /> chatting, and to finally meeting your <br className="hidden md:block" /> driver.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-14 md:gap-24 items-center justify-center">
@@ -36,12 +36,12 @@ export default function Why() {
             Your safety and comfort are of utmost <br className="hidden md:block" /> importance to us and our
             driver-partners.<br className="hidden md:block" /> Whenever, wherever, go ahead and <br className="hidden md:block" /> order.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center whybtn text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
         <figure>
           <Image src={why2} alt="" />

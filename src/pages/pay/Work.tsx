@@ -25,12 +25,12 @@ export default function Work() {
             {`That's`} all <br className="hidden md:block" /> you need to make
             the right money moves.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 md:mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-12 md:gap-16 items-center justify-center">
@@ -52,12 +52,12 @@ export default function Work() {
             our POS system guarantees swift, secure, and{" "}
             <br className="hidden md:block" /> trouble-free payments.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center btnbg text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
         <figure>
           <Image src={pay2} alt="" className="" />

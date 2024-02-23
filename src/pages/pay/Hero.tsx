@@ -16,21 +16,22 @@ export default function Hero() {
               <br className="hidden md:block" /> Secure Way
             </h2>
             <p className="text-xl md:text-2xl">
-            Seamlessly Handle Your Financial Transactions <br className="hidden md:block" /> with Confidence and Security
+              Seamlessly Handle Your Financial Transactions{" "}
+              <br className="hidden md:block" /> with Confidence and Security
             </p>
             <div className="flex flex-col md:flex-row gap-5 text-lg mx-auto md:mx-0">
-              <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+              <a href="https://onelink.to/8ts9xt" className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
                 <Image src={playstore} alt="" className="h5" />
                 <span className="text-start flex flex-col gap-1">
                   <small className="text-xs">Download on</small> Google Play
                 </span>
-              </button>
-              <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+              </a>
+              <a href="https://onelink.to/8ts9xt" className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
                 <Image src={appstore} alt="" className="h-" />
                 <span className="text-start flex flex-col gap-1">
                   <small className="text-xs">Download on</small> Apple Store
                 </span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

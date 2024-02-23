@@ -1,42 +1,50 @@
 "use client";
 import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import faq from "@/assets/faq.png";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const List = [
   {
-    question: "What services does Hitch Africa offer",
+    question: " What is HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "HitchAfrica is a comprehensive app designed to simplify your daily life, offering secured payments, swift deliveries, and ride-sharing—all in one place for your convenience.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "How does HitchAfrica work?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Simply download the app, sign up, and explore its features. Whether you need secure payments, fast deliveries, or professional services, HitchAfrica has you covered.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "Is HitchAfrica available in my city/country?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Check our app store listings or visit our website for the most up-to-date information on HitchAfrica's availability in your location.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "How can I stay updated on HitchAfrica's launch?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Follow our social media channels for the latest updates, sneak peeks, and launch announcements.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "Can I use HitchAfrica for both personal and business needs?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Yes, HitchAfrica is designed to cater to both personal and business requirements, providing a versatile solution for a wide range of users.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "Are there any membership or subscription fees to use HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "No, HitchAfrica is a free-to-use app. You only pay for the services you use, such as ride-sharing or ordering from merchants.",
   },
+  {
+    question: "Is HitchAfrica available on multiple platforms?",
+    answer:
+      "Yes, HitchAfrica is available for download on both Android and iOS platforms. Visit the respective app stores to get started.",
+  },
+  {
+    question: "Can I provide feedback or report issues within the HitchAfrica app?",
+    answer:
+      "Absolutely! We encourage users to share feedback through the app. You can also contact our support team for assistance with any issues.",
+  },
+  
 ];
 export default function One() {
     const [activeIndices, setActiveIndices] = useState(new Set());

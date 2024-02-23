@@ -16,7 +16,7 @@ export default function Ask() {
           <p className="text-xl">
             You can ask about anything you wish to learn
             <br className="hidden md:block" />
-            about HitchAfrica
+            about Hitch Africa
           </p>
           <label className="rounded-md bg-white h-16 w-full flex items-center px-2">
             <input

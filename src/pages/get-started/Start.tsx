@@ -7,6 +7,7 @@ import appstore from "@/assets/appstore-w.png";
 import done from "@/assets/sent.png";
 export default function Start() {
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [state, setState] = useState({
     first: "",
     last: "",
@@ -17,6 +18,7 @@ export default function Start() {
   });
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
+    setLoading(true);
     if (state.first && state.last && state.phone && state.email && state.city) {
       fetch("https://formsubmit.co/ajax/hello@hitch.africa", {
         method: "POST",
@@ -35,6 +37,7 @@ export default function Start() {
         .then((data) => {
           console.log(data);
           setSent(true);
+          setLoading(false);
           setState({
             first: "",
             last: "",
@@ -166,16 +169,12 @@ export default function Start() {
                 </span>
               </label>
               <button
-                className="font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5"
-                onClick={
-                  state.check
-                    ? () => setSent(true)
-                    : () => {
-                        return;
-                      }
-                }
+                className={`font-[600] btnbg text-white h-14 md:h-[70px] w-full rounded-lg md:rounded-xl px-5 ${
+                  loading ? "opacity-80 animate-pulse" : ""
+                }`}
+                disabled={state?.check ? false : true || loading}
               >
-                Sign up
+                Submit
               </button>
             </form>
           </div>
@@ -185,30 +184,29 @@ export default function Start() {
         <main className="min-h-screen bg-[#FFF3F6] px-5 py-10 md:py-20 flex justify-center  items-center flex-col gap-8 text-center">
           <Image src={done} alt="" className="" />
           <h3 className="text-purple text-[35px] md:text-[64px] font-[600]">
-            Congratulations
+            Thanks For Joining Us
           </h3>
           <div className="flex flex-col gap-5">
             <h4 className="text-red text-2xl md:text-[34px] font-[600]">
-              Welcome to the Hitch Family
+              Welcome to the Hitch Africa Family
             </h4>
             <p className="text-2xl">
-              You have successfully signed up to the hitch platform.{" "}
-              <br className="hidden md:block" /> Please download the application
-              to continue.
+              We will get back to you shortly. <br /> In the meantime, you can
+              download our app.
             </p>
             <div className="flex flex-col md:flex-row items-center  justify-center gap-5 text-lg mx-auto md:mx-0">
-              <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+              <a href="https://onelink.to/8ts9xt" className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
                 <Image src={playstore} alt="" className="h5" />
                 <span className="text-start flex flex-col gap-1">
                   <small className="text-xs">Download on</small> Google Play
                 </span>
-              </button>
-              <button className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
+              </a>
+              <a href="https://onelink.to/8ts9xt" className="bg-primary text-white flex py-3 px-8 gap-4 rounded-xl justify-center items-center w-fit min-w-fit">
                 <Image src={appstore} alt="" className="h-" />
                 <span className="text-start flex flex-col gap-1">
                   <small className="text-xs">Download on</small> Apple Store
                 </span>
-              </button>
+              </a>
             </div>
           </div>
         </main>

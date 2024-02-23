@@ -1,41 +1,38 @@
 "use client";
 import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import faq from "@/assets/faq.png";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const List = [
   {
-    question: "What services does Hitch Africa offer",
+    question: "How do I place an order for food or groceries on HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Open the app, choose the desired service, browse options, add items to your cart, and complete the order by following the prompts.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "How can I schedule a ride on HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Enter your destination, choose your ride option, set the pickup time, and confirm your booking to schedule a ride.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "Can I track my order or ride in real-time?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Yes, real-time tracking is available for both orders and rides. You can monitor the progress within the app.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "How do I contact customer support on HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Navigate to the app's help or support section to find contact details for customer support. You can typically reach them via chat, email, or phone.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "Can I cancel an order or ride after it's been confirmed?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Yes, you can cancel orders or rides within a certain time frame. However, cancellation policies may apply, so be sure to check the terms before canceling.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "Is there a loyalty program for frequent users on HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "HitchAfrica may offer loyalty programs or rewards for frequent users. Stay updated on our announcements for any ongoing loyalty initiatives.",
   },
 ];
 export default function Five() {
@@ -54,7 +51,7 @@ export default function Five() {
 
   return (
     <main className="px-5 md:px-20 py-10 md:py-14 flex flex-col gap-10">
-        <h3 className="text-2xl md:text-[40px] font-[500] other2">Shipping and Delivery</h3>
+        <h3 className="text-2xl md:text-[40px] font-[500] other2">How-to Questions</h3>
         <div className="w-full flex flex-col gap-5">
           {List.map((info, index) => (
             <nav

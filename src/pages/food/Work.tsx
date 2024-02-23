@@ -26,12 +26,12 @@ export default function Work() {
             or a well-kept culinary treasure <br className="hidden md:block" />{" "}
             waiting to be discovered.
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center redGrad text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-8 md:gap-16 items-center justify-center">
@@ -45,12 +45,12 @@ export default function Work() {
             <br className="hidden md:block" /> preferred method, whether{" "}
             {`it's`} cash or <br className="hidden md:block" /> hitchpay
           </p>
-          <Link
-            href="#"
+          <a
+            href="https://onelink.to/8ts9xt"
             className="rounded-md px-12 h-12 mt-5 flex justify-center items-center redGrad text-white w-fit min-w-fit"
           >
             Get Started
-          </Link>
+          </a>
         </div>
         <figure>
           <Image src={service2} alt="" className="" />

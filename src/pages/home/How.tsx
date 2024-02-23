@@ -22,7 +22,7 @@ export default function How() {
             </span>
             <b className="font-[600] text-black text-2xl">Sign up as a user</b>
             <p>
-              Join HitchAfrica with a simple <br className="hidden md:block" />{" "}
+              Join Hitch Africa with a simple <br className="hidden md:block" />{" "}
               sign-up.
             </p>
           </nav>

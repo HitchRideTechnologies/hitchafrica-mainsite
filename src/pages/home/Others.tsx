@@ -107,7 +107,7 @@ export default function Others() {
               door.
             </p>
           </div>
-          <Link href='#' className="flex items-center gap-3 text-lg">
+          <Link href='/shopping-mart' className="flex items-center gap-3 text-lg">
             Get Started <FaArrowRight />
           </Link>
         </div>

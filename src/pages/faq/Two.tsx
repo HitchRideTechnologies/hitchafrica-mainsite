@@ -1,41 +1,34 @@
 "use client";
 import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import faq from "@/assets/faq.png";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
 
 const List = [
   {
-    question: "What services does Hitch Africa offer",
+    question: "How can I become a driver partner with HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Visit our website or app, navigate to the 'Become a Driver' section, and follow the instructions to sign up and join our network of driver partners.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "What are the requirements to become a driver partner?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Requirements may vary by location. Generally, you need a valid driver's license, a registered vehicle, and must meet certain age and insurance criteria.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "How does the driver rating system work?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Riders can rate drivers after each trip. Consistently high ratings lead to more trip opportunities. Safety and professionalism are key factors in driver ratings.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "How do driver incentives work on HitchAfrica?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "HitchAfrica offers various incentives and bonuses to driver partners based on factors like trip completion, high ratings, and peak-hour participation.",
   },
   {
-    question: "What services does Hitch Africa offer",
+    question: "What safety features are in place for driver partners?",
     answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
-  },
-  {
-    question: "What services does Hitch Africa offer",
-    answer:
-      "From effortlessly sending and receiving funds to seamlessly managing your transactions, our platform ensures a user-centric experience at every step.",
+      "Driver partners have access to an in-app emergency button, and all trips are tracked in real-time. Additionally, there are safety guidelines and protocols in place.",
   },
 ];
 export default function Two() {
@@ -54,7 +47,7 @@ export default function Two() {
 
   return (
     <main className="px-5 md:px-20 py-10 md:py-14 flex flex-col gap-10">
-        <h3 className="text-2xl md:text-[40px] font-[500] text-red">Account and Registration</h3>
+        <h3 className="text-2xl md:text-[40px] font-[500] text-red">Driver Partners</h3>
         <div className="w-full flex flex-col gap-5">
           {List.map((info, index) => (
             <nav

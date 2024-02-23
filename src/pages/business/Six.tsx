@@ -24,7 +24,7 @@ export default function Six() {
             href="#"
             className="rounded-md px-12 h-12 flex justify-center items-center bg-primary text-white w-fit min-w-fit"
           >
-            Become a Merchant
+            Become a Merchant Partner
           </Link>
         </div>
       </div>

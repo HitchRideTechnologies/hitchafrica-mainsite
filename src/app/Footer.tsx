@@ -20,14 +20,14 @@ export default function Footer() {
           <div className="flex flex-col gap-5 md:p-5">
             <p>Available on</p>
             <nav className="flex flex-row gap-5 md:gap-10">
-              <button className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
+              <a href="https://onelink.to/8ts9xt"  className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
                 <Image src={playstore} alt="" className="h-full" />
                 Android
-              </button>
-              <button className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
+              </a>
+              <a href="https://onelink.to/8ts9xt"  className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit">
                 <Image src={appstore} alt="" className="h-full" />
                 IOS
-              </button>
+              </a>
             </nav>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Support</b>
             <a
-              href="https://api.whatsapp.com/send?phone=2347055554168"
+              href="mailto:hello@hitch.africa"
               target="_blank"
               rel="noreferrer"
             >
@@ -59,20 +59,20 @@ export default function Footer() {
         <div className="flex md:justify-center col-span-2 md:col-span-1">
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Contact Us</b>
-            <p>Address: Ikeja Lagos</p>
-            <p>Phone Number: +2347055554168</p>
+            <p>Address: 1207 Delaware Ave #373 Wilmington, DE 19806</p>
+            <p>Phone Number: +1440-771-3030</p>
             <p>Contact Email: hello@hitch.africa</p>
             <nav className="flex gap-5">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/hitchride-technologies-ltd/" target="_blank" rel="noopener noreferrer">
                 <Image src={soc1} alt="" className="h-10 w-10" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/hitch.africa" target="_blank" rel="noopener noreferrer">
                 <Image src={soc2} alt="" className="h-10 w-10" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/hitchafrica_" target="_blank" rel="noopener noreferrer">
                 <Image src={soc3} alt="" className="h-10 w-10" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://web.facebook.com/HitchAfrica/" target="_blank" rel="noopener noreferrer">
                 <Image src={soc4} alt="" className="h-10 w-10" />
               </a>
             </nav>

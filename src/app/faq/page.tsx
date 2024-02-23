@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 import Seamless from "@/pages/home/Seamless";
 import Hero from "@/pages/faq/Hero";
 import One from "@/pages/faq/One";
@@ -7,17 +7,19 @@ import Three from "@/pages/faq/Three";
 import Four from "@/pages/faq/Four";
 import Five from "@/pages/faq/Five";
 import Ask from "@/pages/faq/Ask";
+import Six from "@/pages/faq/Six";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "FAQ | Hitch Africa",
-  description: "Find answers to frequently asked questions about Hitch Africa, our services, and how to use them.",
-  keywords:
-    "FAQ, questions, answers, Hitch Africa, ask Hitch Africa",
+  description:
+    "Find answers to frequently asked questions about Hitch Africa, our services, and how to use them.",
+  keywords: "FAQ, questions, answers, Hitch Africa, ask Hitch Africa",
   openGraph: {
     title: "FAQ | Hitch Africa",
-    description: "Find answers to frequently asked questions about Hitch Africa, our services, and how to use them.",
+    description:
+      "Find answers to frequently asked questions about Hitch Africa, our services, and how to use them.",
     url: "https://hitch.africa/faq",
     siteName: "Hitch.Africa",
     images: [
@@ -61,7 +63,8 @@ export default function FAQ() {
       <Three />
       <Four />
       <Five />
-      <Ask /> 
+      <Six />
+      <Ask />
       <Seamless />
     </main>
   );

@@ -1,7 +1,7 @@
 import team1 from "@/assets/team/team1.jpeg";
 import team2 from "@/assets/team/team2.png";
-import team3 from "@/assets/team/team.jpg";
-import team4 from "@/assets/team/team.jpg";
+import team3 from "@/assets/team/team3.jpeg";
+import team4 from "@/assets/team/team4.jpeg";
 import Image, { StaticImageData } from "next/image";
 
 export default function Team() {
@@ -10,18 +10,18 @@ export default function Team() {
       <div className="flex flex-col md:flex-row gap-5 md:gap-20 w-full">
         <h3 className="min-w-fit text-center text-3xl md:text-[40px] text-red font-[600]">
           <span className="text-purple inline"> The Amazing </span> People
-          Behind Hitch
+          Behind Hitch Africa
         </h3>
-        <p className="text-lg md:text-2xl">
+        {/* <p className="text-lg md:text-2xl">
           From Product Managers to Designers, Our team is formed around a common
           goal to bring the best and brightest to do something truly remarkable.
-        </p>
+        </p> */}
       </div>
       <div className="flex flex-col md:grid grid-cols-4 gap-10">
         <Single img={team1} name="Paul Obalonye" pos="CEO" />
-        <Single img={team2} name="Emem Umoh" pos="Co-founder" />
-        <Single img={team3} name="Joyce Temi" pos="Head of Products" />
-        <Single img={team4} name="Faith Oyah" pos="Product Designer" />
+        {/* <Single img={team3} name="Ijeoma Chukwu" pos="Co-founder" /> */}
+        <Single img={team2} name="Emem Umoh" pos="CTO" />
+        <Single img={team4} name="Joyce Temi" pos="Head of Products" />
       </div>
     </main>
   );
@@ -39,7 +39,7 @@ const Single = ({ img, name, pos }: Props): JSX.Element => {
       <Image
         src={img}
         alt=""
-        className="w-full h-full object-cover"
+        className="w-full h-full max-h-[400px] object-cover object-center"
         unoptimized
       />
       <nav

@@ -76,7 +76,7 @@ export default function Policies() {
           You have the right to access, correct, or delete your personal
           information. You may also opt out of receiving promotional
           communications from us. To exercise these rights or for any
-          privacy-related inquiries, please contact us at info@hitch.africa.
+          privacy-related inquiries, please contact us at hello@hitch.africa.
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -96,7 +96,7 @@ export default function Policies() {
         </h4>
         <p>
           If you have any questions or concerns about our Privacy Policy, please
-          contact us at info@hitch.africa.
+          contact us at hello@hitch.africa.
         </p>
       </div>
     </main>
