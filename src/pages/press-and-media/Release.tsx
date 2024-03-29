@@ -1,7 +1,7 @@
 import news1 from "@/assets/news/news1.png";
 import news2 from "@/assets/news/news2.jpeg";
-import news3 from "@/assets/news/news1.webp";
-import news4 from "@/assets/news/news1.jpeg";
+import news3 from "@/assets/news/news3.webp";
+import news4 from "@/assets/news/news4.jpeg";
 import Image, { StaticImageData } from "next/image";
 // import Link from "next/link";
 
