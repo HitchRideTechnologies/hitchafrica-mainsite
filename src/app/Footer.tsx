@@ -66,11 +66,11 @@ export default function Footer() {
           <div className="flex flex-col gap-10">
             <b className="text-xl font-[500]">Contact Us</b>
             <p>
-              International Address: 1207 Delaware Ave #373 Wilmington, DE 19806
-            </p>
-            <p>
               Nigeria Address: 426 Oluwadamilola Fasade Street, Omole Phase 1,
               Ojodu Berger.
+            </p>
+            <p>
+              International Address: 1207 Delaware Ave #373 Wilmington, DE 19806
             </p>
             <p>Phone Number: +1440-771-3030</p>
             <p>Contact Email: hello@hitch.africa</p>
