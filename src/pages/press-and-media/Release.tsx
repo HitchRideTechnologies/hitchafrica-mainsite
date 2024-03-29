@@ -100,7 +100,7 @@ const Single = ({ icon, title, date, outlet, slug }: Props): JSX.Element => {
       rel="noopener noreferrer"
       className="w-full flex flex-col gap-3 uppercase"
     >
-      <Image src={icon} alt="" className="w-full h-[350px]" />
+      <Image src={icon} alt="" className="w-full h-[420px]" />
       <button className="w-fit px-5 h-10 md:h-12 text-sm md:text-base bg-[#F5F5F5] rounded text-[#5F5F5F]">
         {outlet}
       </button>
