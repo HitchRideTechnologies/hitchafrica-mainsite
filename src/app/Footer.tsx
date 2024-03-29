@@ -72,7 +72,7 @@ export default function Footer() {
             <p>
               International Address: 1207 Delaware Ave #373 Wilmington, DE 19806
             </p>
-            <p>Phone Number: +1440-771-3030</p>
+            <p>Phone Number: +234 805 438 3383</p>
             <p>Contact Email: hello@hitch.africa</p>
             <nav className="flex gap-5">
               <a
@@ -108,7 +108,7 @@ export default function Footer() {
         </div>
       </section>
       <div className="w-full pb-5 border-b border-white text-center">
-        © 2023 Hitch. All rights reserved.
+        © 2024 Hitch. All rights reserved.
       </div>
     </footer>
   );
