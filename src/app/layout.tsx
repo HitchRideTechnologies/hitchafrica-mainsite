@@ -4,6 +4,7 @@ import { Montserrat } from "next/font/google";
 import Footer from "./Footer";
 import Script from "next/script";
 import Image from "next/image";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const mont = Montserrat({ subsets: ["latin"] });
 
@@ -50,6 +51,8 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-DRL8FXZHXX" />
+      <GoogleTagManager gtmId="GTM-DRL8FXZHXX" />
     </html>
   );
 
