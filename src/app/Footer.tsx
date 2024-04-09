@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/assets/logo-f.png";
@@ -8,7 +9,15 @@ import soc4 from "@/assets/soc4.png";
 import playstore from "@/assets/playstore.png";
 import appstore from "@/assets/appstore.png";
 import bg from "@/assets/fbg.png";
+import { ReadonlyURLSearchParams, useSearchParams } from "next/navigation";
+import { useEffect, useMemo } from "react";
 export default function Footer() {
+  const searchParam: any = useSearchParams();
+  const requestFromApp = useMemo(
+    () => searchParam.get("app") === "true",
+    [searchParam]
+  );
+
   return (
     <footer
       className="flex flex-col gap-14 md:gap-20 md:text-lg justify-center items-center text-white px-5 md:px-20 py-10 md:py-20 bg-primary bg-no-repeat bg-cover bg-center"
@@ -21,6 +30,7 @@ export default function Footer() {
             <p>Available on</p>
             <nav className="flex flex-row gap-5 md:gap-10">
               <a
+                style={{ display: requestFromApp ? "none" : "flex" }}
                 href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
                 className="text-primary bg-white flex py-3 px-8 gap-2 md:gap-4 rounded-full justify-center items-center w-fit"
               >
