@@ -33,7 +33,7 @@ export default function Features() {
           and more convenient way.
         </p>
       </div>
-      <Marquee className="" autoFill={true} speed={150}>
+      <Marquee className="" autoFill={true} speed={200} pauseOnHover={true}>
         <Feat icon={feat1} title="All-in-one Convenience" />
         <Feat icon={feat2} title="Secured Payments" />
         <Feat icon={feat3} title="Swift Deliveries" />
@@ -41,7 +41,7 @@ export default function Features() {
         <Feat icon={feat5} title="Stringent quality control" />
         <Feat icon={feat6} title="24/7 Customer Support" />
       </Marquee>
-      <Marquee className="" autoFill={true} speed={150}>
+      <Marquee className="" autoFill={true} speed={200} pauseOnHover={true}>
         <Image
           priority={true}
           src={img1}
