@@ -28,7 +28,7 @@ export default function Seamless() {
           <div className="flex flex-row gap-5">
             {!requestFromApp && (
               <a
-                href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
+                href="https://play.google.com/store/apps/details?id=com.hitchafrica.hitch_customer&hl=en_US"
                 className="bg-white d-none flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit"
               >
                 <small className="text-xs text-[#101010]">Download on</small>
@@ -40,7 +40,7 @@ export default function Seamless() {
             )}
 
             <a
-              href="https://play.google.com/store/apps/developer?id=HITCHRIDE+TECHNOLOGY+LTD"
+              href="https://apps.apple.com/us/app/hitch-africa/id6475225704"
               className="bg-white flex flex-col py-2 md:py-3 px-3 md:px-8 gap-1 rounded-md md:rounded-xl justify-center items-center w-fit min-w-fit min-h-fit"
             >
               <small className="text-xs text-[#101010]">Download on</small>
